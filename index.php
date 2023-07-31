@@ -1,1 +1,1 @@
-<h1>welcome to green-kirmada projectS</h1>
+<h1>welcomi to green-kirmada projectS</h1>
