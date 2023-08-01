@@ -25,40 +25,7 @@ include "libs/load.php";
 <body>
     <?php load_temp("header.php"); ?>
     <div class="container">
-      <div class="card1">
-          <div id="carouselExample" class="carousel slide adj">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="resource/im1.jpeg" class="d-block w-100 h-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="resource/im1.jpeg" class="d-block w-100 h-60" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="resource/im3.jpeg" class="d-block w-100 h-60" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
-
-      <div class="card adj1">
-    <h5 class="card-header">Complients</h5>
-    <div class="card-body">
-      <h5 class="card-title">Public quries</h5>
-      <p class="card-text">Addressing public queries related to green awareness is vital for fostering a sense of environmental responsibility, empowering individuals and businesses to make environmentally conscious decisions, and collectively contributing to a more sustainable and eco-friendly future. Providing accurate and accessible information can help inspire positive change and encourage people to become advocates for the environment</p>
-      <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Click here</button>
-    </div>
-    </div>
-
-      
 
        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
