@@ -26,5 +26,8 @@
     background-color: rgb(55, 54, 54);
     border-radius: 50px;
     margin-top: 5px;
+    position: -webkit-sticky;
+    position: sticky;;
+    
     
 }
