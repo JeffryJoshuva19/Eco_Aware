@@ -21,8 +21,10 @@
     
 }
 .check{
+    width: 100%;
     border-width: 550px;
     background-color: rgb(55, 54, 54);
     border-radius: 50px;
     margin-top: 5px;
+    
 }
