@@ -1,0 +1,26 @@
+.col1{
+	border: 20px solid blanchedalmond;
+	height: 50%;
+}
+
+.chart
+{
+	padding: 30px 10%;
+	max-width: 800px;
+	height: 400px;
+}
+
+img{
+	height: auto;
+	width: 100%;
+	padding: 70px;
+}
+
+h1{
+	font-size: medium;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
+

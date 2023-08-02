@@ -1,0 +1,28 @@
+.card1{
+    margin-bottom: 100px;
+}
+.card2{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 100%;
+    margin-top: 10%;
+}
+.adj{
+    border-radius: 30px;
+}
+
+.h-60{
+    border-radius: 30px;
+    height: 80%;
+}
+.adj1{
+    margin-top: 2%;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+    background-color: aquamarine;
+}
+.adj1:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+  }

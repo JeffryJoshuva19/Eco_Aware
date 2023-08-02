@@ -8,9 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px; /* Set the desired size of the circular image container */
-    height: 50px; /* Set the desired size of the circular image container */
-    border-radius: 50%; /* This makes the container circular */
+    width: 90px; 
+    height: 50px; 
+    border-radius: 50%; 
     overflow: hidden;
 }
 .circular-image img{
@@ -26,5 +26,8 @@
     background-color: rgb(55, 54, 54);
     border-radius: 50px;
     margin-top: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    
     
 }
