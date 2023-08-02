@@ -6,14 +6,16 @@ body {
  }
 
 .containe {
-   width:85%;
+   width:95%;
    display: flex;
    justify-content: space-around;
    margin-right:auto;
    margin-left:auto;
-   background-color: #2381e5;
+   background-color: rgba(46, 196, 182, 0.9);
    padding: 20px;
    border-width: 50px;
+   border-radius: 10px;
+   
 }
 
 .colum {
