@@ -7,18 +7,20 @@ body {
 
 .containe {
    width:95%;
-   display: flex;
    justify-content: space-around;
    margin-right:auto;
    margin-left:auto;
-   background-color: rgba(46, 196, 182, 0.9);
    padding: 20px;
    border-width: 50px;
    border-radius: 10px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax values as needed */
+   gap: 150px;
    
 }
 
 .colum {
+   
    text-align: center;
    padding: 20px;
    background-color: #fff;
@@ -40,4 +42,17 @@ h2 {
 .percentag {
    font-size: 2.5em;
    color: #6c5ce7;
+}
+.test{
+   background-image: url("after.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+
+}
+.bkt{
+   margin-top: 50px;
+   
+  
+   
 }
