@@ -22,24 +22,127 @@ include "libs/load.php";
     </head>
 </head>
 
-  <body>
-    <?php load_temp("header.php"); ?>
-      <div class="container"style="background-color: #D8D9DA;border-radius: 20px;">
-        <div class="row"style="color:">
-          <div class="card">
-            <div class="card-">
-              <h1><div class="card-title">Title</div></h1>
-              <h3><div class="card-subtitle">Subtitle</div></h3>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, doloribus sunt. Illo, ea tenetur rem provident vero, unde laudantium, molestias voluptatem doloremque aperiam inventore fuga? Minus eaque nesciunt unde. Dolores!
-            </div>
-          </div>
-          <!-- qwerty -->
-        </div>
-      </div>
-       
+<body>
+  <header><?php load_temp("header.php"); ?></header>
+  <div class="container"style="background-color: #D8D9DA;border-radius: 20px;">
+    
+  <!-- <html>
+<head>
+  <title>Green Environment Awareness - Madurai</title>
+  
+</head>
+<body>
+  <div class="heade">
+    <h1>Green Environment Awareness - Madurai</h1>
+    <p>Learn and Act for a Greener Madurai</p>
+  </div>
+  
+  <div class="containe">
+    <div class="activity-title">Activity: Plant a Tree</div>
+    <div class="activity-description">
+      Help the environment and beautify Madurai by planting a tree. Trees provide essential benefits to the ecosystem and combat climate change.
+    </div>
+    <div class="activity-item">
+      <i class="activity-icon">🌳</i>
+      <div class="activity-item-text">Choose a suitable location for planting the tree.</div>
+    </div>
+    <div class="activity-item">
+      <i class="activity-icon">🏞️</i>
+      <div class="activity-item-text">Ensure the area has enough space for the tree to grow.</div>
+    </div>
+    <div class="activity-item">
+      <i class="activity-icon">🌱</i>
+      <div class="activity-item-text">Dig a hole and gently place the tree's root system into it.</div>
+    </div>
+    <div class="activity-item">
+      <i class="activity-icon">💧</i>
+      <div class="activity-item-text">Water the tree generously to help it establish its roots.</div>
+    </div>
+    <div class="activity-item">
+      <i class="activity-icon">🌞</i>
+      <div class="activity-item-text">Provide adequate sunlight for the tree's growth.</div>
+    </div>
+    <button class="action-btn">Take Action Now</button>
+  </div>
+</body>
+</html> -->
 
+<div class="row"style="color:">
+  <div class="card">
+    <div class="card-">
+      <h1><div class="card-title">Title</div></h1>
+      <h3><div class="card-subtitle">Subtitle</div></h3>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, doloribus sunt. Illo, ea tenetur rem provident vero, unde laudantium, molestias voluptatem doloremque aperiam inventore fuga? Minus eaque nesciunt unde. Dolores!
+    </div>
+  </div>
+  <!-- qwerty -->
+</div>
+</div>
 
-
-    <?php load_temp("footer.php"); ?>
-  </body>
+<footer><?php load_temp("footer.php"); ?></footer>
+</body>
 </html>
+<!-- <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .heade {
+      background-color: #4CAF50;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .containe {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .activity-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .activity-description {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .activity-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .activity-icon {
+      font-size: 24px;
+      color: #4CAF50;
+      margin-right: 10px;
+    }
+
+    .activity-item-text {
+      font-size: 18px;
+      color: #333;
+    }
+
+    .action-btn {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+  </style> -->
