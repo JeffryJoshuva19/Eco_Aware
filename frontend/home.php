@@ -24,8 +24,8 @@ include "libs/load.php";
 
 <body>
     <?php load_temp("header.php"); ?>
-    <div class="container">
-      <div class="card1">
+    <div class="container" id="about-section">
+      <!-- <div class="card1">
               <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -46,23 +46,26 @@ include "libs/load.php";
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div>
+        </div> -->
 
-
-        <div class="card adj1">
-          <h5 class="card-header">Complients</h5>
-          <div class="card-body">
-            <h5 class="card-title">Public queries</h5>
-            <p class="card-text">Queries forms on environment can be found on government websites, environmental organizations' platforms, educational institutions' websites, or sustainability-focused initiatives. They serve as a practical means for users to seek information, support, or collaboration on various environmental issues and play a part in fostering a more environmentally conscious society.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Click here</button>
+        <div class="row">
+           
+          <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
+            <!-- <img src="resource/imm1.jpg" class="card-img-top" alt="..."> -->
+            <div class="card-body">
+            </div>
+             
           </div>
+        
+          <p class="col-md-6 g">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.<p>
         </div>
+        <hr>
 
-          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalCenterTitle">Complient form</h5>
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Complaint form</h5>
                   <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -90,16 +93,21 @@ include "libs/load.php";
               </div>
             </div>
           </div>
-
-          <div class="card text-center ad adj1">
-          <div class="card-header">
-            Contribute to green Madurai 
+          <div class="row">
+          <div class="col-md-5">
+            <p class="g1">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community  .<a href="payment.php" class="">Donate Now</a></p>
+            
           </div>
-          <div class="card-body">
-            <h5 class="card-title">Let's make Madurai clean</h5>
-            <p class="card-text">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.</p>
-            <a href="payment.php" class="btn btn-primary">donate here</a>
+          <div class="col-md-6">
+          <div class="card adj2" href="payment.php" style="width: 18rem;">
+            <div class="card-body">
+            </div>
+           </div>
           </div>
+          <hr>
+         
+          
+          
           </div>
 
 
