@@ -1,0 +1,58 @@
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+ }
+
+.containe {
+   width:95%;
+   justify-content: space-around;
+   margin-right:auto;
+   margin-left:auto;
+   padding: 20px;
+   border-width: 50px;
+   border-radius: 10px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax values as needed */
+   gap: 150px;
+   
+}
+
+.colum {
+   
+   text-align: center;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+   margin-top: 0;
+   font-size: 1.2em;
+   color: #555;
+}
+
+.numbe {
+   font-size: 2.5em;
+   color: #3caea3;
+}
+
+.percentag {
+   font-size: 2.5em;
+   color: #6c5ce7;
+}
+.test{
+   background-image: url("after.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+
+}
+.bkt{
+   margin-top: 50px;
+   
+  
+   
+}
