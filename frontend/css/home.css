@@ -10,22 +10,71 @@
 }
 .adj{
     border-radius: 30px;
+
 }
 
 .h-60{
-    border-radius: 30px;
     height: 80%;
 }
 .adj1{
+    width: 550px;
+    height: 300px;
     margin-top: 2%;
+    margin-left: 10%;
     border-color: rgb(0, 0, 0);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease; 
-    background-color: aquamarine;
+    background-image: url('../resource/new1.jpg');
+    background-size: cover;
+    animation: floating 3s infinite ease-in-out;
+}
+.adj2{
+    width: 550px;
+    height: 300px;
+    margin-top: 2%;
+    margin-left: 20%;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+    background-image: url('../resource/new2.jpg');
+    background-size: cover;
+    animation: floating 3s infinite ease-in-out;
 }
 .adj1:hover {
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0.1;
+    
+}
+.adj2:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    
 }
 .ad{
     margin-top: 50px;;
+}
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+.g{
+    
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.g1{
+    margin-top: 15%;
+    margin-left: 50px;
+    
+}
+p{
+  font-size: 20px;
+  font: bolder;
 }
