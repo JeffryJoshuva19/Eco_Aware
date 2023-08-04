@@ -67,9 +67,9 @@ include "libs/load.php";
 </body>
 </html> -->
 
-<div class="row"style="color:">
-  <div class="card">
-    <div class="card-">
+<div class="row row-gx-2"style="color:">
+  <div class="card p-2">
+    <div class="card-body p-2">
       <h1><div class="card-title">Title</div></h1>
       <h3><div class="card-subtitle">Subtitle</div></h3>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, doloribus sunt. Illo, ea tenetur rem provident vero, unde laudantium, molestias voluptatem doloremque aperiam inventore fuga? Minus eaque nesciunt unde. Dolores!
@@ -79,6 +79,42 @@ include "libs/load.php";
 </div>
 </div>
 
+<br/>
+<div class="container p-2">
+  <div class="border border-4 border-primary-subtle rounded-1 p-2">
+  <div class="container-md p-2"style="height:320px; overflow-y: scroll;">
+
+      <div class="news-feed">
+        <h2>News Feed 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="news-feed">
+        <h2>News Feed 2</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </div>
+    <div class="news-feed">
+      <h2>News Feed 3</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+    </div>
+    <div class="news-feed">
+      <h2>News Feed 333</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+    </div>
+    <div class="news-feed">
+      <h2>News Feed 63</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+    </div>
+    <div class="news-feed">
+      <h2>News Feed 53</h2>
+      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+    </div>
+    <!-- Add more news feeds here -->
+  </div>
+</div>
+</div>
+  <script src="script.js"></script>
+  
+  
 <footer><?php load_temp("footer.php"); ?></footer>
 </body>
 </html>
@@ -146,3 +182,43 @@ include "libs/load.php";
       margin-top: 20px;
     }
   </style> -->
+  <style>
+
+.news-feed {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+</style>
+<!-- <script>
+  // If you want to dynamically add more news feeds through JavaScript, you can use the following approach:
+
+const container = document.querySelector('.container');
+
+function addNewsFeed(title, content) {
+  const newsFeed = document.createElement('div');
+  newsFeed.classList.add('news-feed');
+  
+  const titleElement = document.createElement('h2');
+  titleElement.textContent = title;
+  
+  const contentElement = document.createElement('p');
+  contentElement.textContent = content;
+  
+  newsFeed.appendChild(titleElement);
+  newsFeed.appendChild(contentElement);
+  container.appendChild(newsFeed);
+}
+
+
+
+</script> -->
