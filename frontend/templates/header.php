@@ -1,4 +1,4 @@
- <head>
+<head>
     <link href="css/header.css" rel="stylesheet">
  </head>
   <div class="container check">
