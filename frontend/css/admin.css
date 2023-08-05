@@ -1,0 +1,7 @@
+.ad{
+    margin-top: 50px;
+}
+.table-container {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow-y: auto;
+}

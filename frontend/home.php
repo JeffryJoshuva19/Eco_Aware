@@ -17,13 +17,18 @@ include "libs/load.php";
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="resource/iconn.ico">
     <link href="css/home.css" rel="stylesheet">
     <script src="js/home.js"></script>
+    
   </head>
 </head>
+<?php load_temp("header.php"); ?>
 
 <body>
-    <?php load_temp("header.php"); ?>
     <div class="container" id="about-section">
       <!-- <div class="card1">
               <div id="carouselExample" class="carousel slide">
@@ -48,7 +53,7 @@ include "libs/load.php";
           </button>
         </div> -->
 
-        <div class="row">
+        <div class="row content">
            
           <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
             <!-- <img src="resource/imm1.jpg" class="card-img-top" alt="..."> -->
@@ -57,7 +62,7 @@ include "libs/load.php";
              
           </div>
         
-          <p class="col-md-6 g">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.<p>
+          <p class="col-md-6 g content">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.<p>
         </div>
         <hr>
 
@@ -93,110 +98,74 @@ include "libs/load.php";
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row content">
           <div class="col-md-5">
             <p class="g1">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community  .<a href="payment.php" class="">Donate Now</a></p>
             
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 content">
           <div class="card adj2" href="payment.php" style="width: 18rem;">
             <div class="card-body">
             </div>
            </div>
           </div>
-          <hr>
-         
-          
-          
+          <hr>          
           </div>
-
-
-
-        <div id="carouselExampleControls" class="carousel carousel-dark slide ad" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="card-wrapper container-sm d-flex  justify-content-around">
-              <div class="card  " style="width: 18rem;">
-          <img src="resource/ev2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
+          <div class="container-fluid content">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="hori-timeline" dir="ltr">
+                              <ul class="list-inline events">
+                                  <li class="list-inline-item event-list">
+                                      <div class="px-4">
+                                          <div class="event-date bg-soft-primary text-primary">2 June</div>
+                                          <h5 class="font-size-16">Event One</h5>
+                                          <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge friend</p>
+                                          <div>
+                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="list-inline-item event-list">
+                                      <div class="px-4">
+                                          <div class="event-date bg-soft-success text-success">5 June</div>
+                                          <h5 class="font-size-16">Event Two</h5>
+                                          <p class="text-muted">Everyone realizes why a new common language one could refuse translators.</p>
+                                          <div>
+                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="list-inline-item event-list">
+                                      <div class="px-4">
+                                          <div class="event-date bg-soft-danger text-danger">7 June</div>
+                                          <h5 class="font-size-16">Event Three</h5>
+                                          <p class="text-muted">If several languages coalesce the grammar of the resulting simple and regular</p>
+                                          <div>
+                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  <li class="list-inline-item event-list">
+                                      <div class="px-4">
+                                          <div class="event-date bg-soft-warning text-warning">8 June</div>
+                                          <h5 class="font-size-16">Event Four</h5>
+                                          <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
+                                          <div>
+                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
+                                          </div>
+                                      </div>
+                                  </li>
+                                  
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- end card -->
+              </div>
           </div>
-        </div><div class="card" style="width: 18rem;">
-          <img src="resource/ev2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-
-          </div>
-          </div>
-                <div class="card" style="width: 18rem;">
-          <img src="resource/ev2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
-          </div>
-        </div>
-        </div>
-        </div>
-        <div class="carousel-item">
-              <div class="card-wrapper container-sm d-flex   justify-content-around">
-              <div class="card  " style="width: 18rem;">
-          <img src="resource/ev2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
-          </div>
-        </div><div class="card" style="width: 18rem;">
-          <img src="resource/ev2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
-          </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-          <img src="resource/ev2.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-text">Card title</h5>
-            
-          </div>
-        </div>
-            </div>
-            </div>
-            <!-- <div class="carousel-item">
-              <div class="card-wrapper container-sm d-flex  justify-content-around">
-              <div class="card " style="width: 18rem;">
-          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
-          </div>
-        </div>
-                <div class="card" style="width: 18rem;">
-          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
-          </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-          <img src="https://source.unsplash.com/collection/190727/1600x900" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            
-          </div>
-        </div>
-            </div> -->
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
       <div>
     </div>  
   <?php load_temp("footer.php"); ?>
