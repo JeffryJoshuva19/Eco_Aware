@@ -3,7 +3,7 @@
       <link href="css/header.css" rel="stylesheet">
       <script src="js/header.js"></script>
    </head>
-    <div class="container check  fixed-top">
+    <div class="container check hed1 fixed-top">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <div class="circular-image">

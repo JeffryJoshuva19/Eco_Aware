@@ -2,6 +2,10 @@
 	border: 20px solid blanchedalmond;
 	height: 50%;
 }
+.col2{
+	border: 20px solid blanchedalmond;
+	height: 483px;
+}
 
 .chart
 {
@@ -11,8 +15,6 @@
 }
 
 img{
-	height: auto;
-	width: 100%;
 	padding: 70px;
 }
 

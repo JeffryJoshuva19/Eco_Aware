@@ -1,0 +1,89 @@
+.img1{
+    object-fit: contain;
+    object-position: center;
+}
+.card2{
+    
+    background-color:  rgb(55, 54, 54);;
+    height:50px;
+    width: 100%;
+    
+}
+.card1{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 150px;
+    margin: 50px 50px 50px;
+}
+.card3{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+}
+.card4{
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+}
+.card5{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+}
+.card6{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+}
+.card7{
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+}
+.card1:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card3:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card4:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card5:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card6:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card7:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    align-items: center;
+}
+.test{
+    width: 288px;
+    height: 150px;
+}
