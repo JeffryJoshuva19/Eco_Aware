@@ -21,7 +21,7 @@ include "libs/load.php";
   </head>
 </head>
 <body>
-    <?php load_temp("header.php"); ?>
+    <?php load_temp("header1.php"); ?>
     <div class="container">
         <div class="container1">
             <h1 class="heading">Air pollution control measures</h1>
@@ -30,7 +30,6 @@ include "libs/load.php";
     <div class="container2">
       <h2>Introduction</h2>
       <p>Clean air is vital for the health of our planet and its inhabitants. Air pollution poses significant risks to human health and the environment. To safeguard the air we breathe, various air control measures are implemented to reduce harmful emissions and maintain air quality.</p>
-      <img src="resource/water1.jpg" alt="water">
     </div>
 
     <div class="container2">
