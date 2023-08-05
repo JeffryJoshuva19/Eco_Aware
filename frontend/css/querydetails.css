@@ -1,0 +1,32 @@
+.ad{
+    margin-top: 100px;
+}
+.hi{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: floating 3s infinite ease-in-out;
+    
+}
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.c1:hover{
+    box-shadow: 10px 10px 20px rgba(128, 255, 1, 0.1);
+
+
+}
+.c2:hover{
+    box-shadow: 10px 10px 20px rgba(255, 167, 4, 0.1);
+
+
+}
+.c3:hover{
+    box-shadow: 10px 10px 20px rgba(249, 3, 3, 0.1);
+
+
+}

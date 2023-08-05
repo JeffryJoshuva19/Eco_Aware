@@ -1,0 +1,32 @@
+
+  
+  .float-container {
+    display: flex;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+  
+  .image-container {
+    float: right;
+    margin: 20px;
+  }
+  
+  .image-container img {
+    max-width: 25%;
+    height: auto;
+  }
+  
+  /* Clear the float to avoid affecting other elements outside the container */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container-fluid {
+    margin-bottom: 20px; /* Add margin between containers */
+    border: 2px solid #ccc; /* Add a border to the containers for better visibility */
+    padding: 10px; /* Add padding to create some space between the content and the border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for the 3D effect */
+  }
