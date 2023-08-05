@@ -3,10 +3,14 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="css/header.css" rel="stylesheet">
+
     <script src="js/header.js"></script>
  </head>
     <header class="neww">
       <!--// NAV BAR //-->
+      <div id="test">
+        <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+      </div>
      
       <div class="container check">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
@@ -35,9 +39,14 @@
         </header>
       </div>         
       </div> 
-      <h1 class="d-flex justify-content-center cent">"Let's make Madurai green and clean."</h1>
+      <h1 class="d-flex justify-content-center cent ant">"Let's make Madurai green and clean."</h1>
       <div class="down">
          
          <a class="next-page" href="#about-section"><i class="animated pulse infinite fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i></a>
       </div>
   </header>
+  <script>
+    function loadGoogleTranslate(){
+      new google.translate.TranslateElement("test");
+    }
+  </script>
