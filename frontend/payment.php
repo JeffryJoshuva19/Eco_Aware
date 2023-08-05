@@ -24,7 +24,7 @@ include "libs/load.php";
 </head>
   <body>
     
-    <?php load_temp("header.php"); ?>
+    <?php load_temp("header1.php"); ?>
           <div class="container test">
                 <div class="row">
                    
