@@ -1,0 +1,17 @@
+.section-padding{
+    padding:50px 0;
+}
+.carousel-item{
+    height: 50vh;
+    min-height: 300px;
+}
+.c1{
+    background-color: aliceblue;
+}
+.c2{
+    background-color: aliceblue;
+}
+
+.section-padding1{
+    padding-left: 100px;
+}
