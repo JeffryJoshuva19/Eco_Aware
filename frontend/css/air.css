@@ -6,10 +6,47 @@
 }
 .image {
   width: 100%;
-  height: 400px;
+  height: 300px;
   overflow: hidden;
 }
+.card1 {
+  position: relative;
+}
 
+
+.card1 img {
+  width: 100%;
+  height: 500px;
+}
+
+.card1 .overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: left;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card1 .overlay-text h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card1 .overlay-text p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+ .test{
+  height: 100%;
+  width: 100%;
+}
 .image img {
   width: 100%;
   height: auto;  
@@ -20,17 +57,17 @@
   text-align: center;
   padding: 40px 20px;
   margin-top: 0px;
+  background-color: rgb(228, 243, 248);
 }
 
 .box h3 {
-  color: black;
-  background-color: skyblue;
-  font-size: 24px;
+  color: rgb(5, 85, 131);
+  font-size: 30px;
   padding: 10px 0;
 }
 
 .box p {
-
+  color: orange;
   font-size: 18px;
   line-height: 1.8;
 }
@@ -38,7 +75,7 @@
   display: flex;
   justify-content: space-between;
   gap: -5px;
-  margin-top: 30px;
+  margin-top: 0px;
   padding: 20px;
   margin-bottom: 10px;
   background-color: aliceblue;
@@ -60,7 +97,7 @@
 }
 
 .card h3 {
-  background-color: skyblue;
+  color: rgb(0, 57, 97);
   font-size: 24px;
 }
 .card p {
@@ -81,5 +118,129 @@
   border-radius: 5px;
 }
 
+.card {
+  flex: 1;
+  max-width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.adj{
+border-radius: 30px;
+
+}
+
+.h-60{
+height: 80%;
+}
+.adj1{
+width: 550px;
+height: 300px;
+margin-top: 2%;
+margin-left: 10%;
+border-color: rgb(0, 0, 0);
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease; 
+background-image: url('../resource/water1.jpg');
+background-size: cover;
+animation: floating 3s infinite ease-in-out;
+}
 
 
+
+.ad{
+margin-top: 50px;;
+}
+@keyframes floating {
+0%, 100% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-10px);
+}
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+display: none;
+}
+.g{
+
+margin-top: 10%;
+margin-left: 2%;
+}
+.g1{
+margin-top: 15%;
+margin-left: 50px;
+
+}
+p{
+font-size: 20px;
+font: bolder;
+}
+.row h1{
+text-align: left;
+padding-top: 10px;
+  color: orangered;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+hr {
+border-top: 5px solid orange;
+width: 50%;
+}
+
+.cards-container1{
+display: flex;
+  justify-content: space-between;
+  gap: -5px;
+  margin-top: 0px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: rgb(173, 220, 240);
+}
+
+.cards-container1 p{
+color: black;
+}
+
+
+
+
+
+.cards-container4 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: rgb(216, 230, 235);
+
+}
+
+.card4 {
+flex: 0 0 calc(33.33% - 20px);
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+box-sizing: border-box;
+}
+
+.card4 h2 {
+font-size: 24px;
+margin-bottom: 10px;
+color: rgb(31, 174, 221);
+}
+
+.card4 p {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.logo img{
+width: 30%;
+height: 30%;
+padding: 10px; 
+}

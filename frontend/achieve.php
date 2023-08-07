@@ -89,13 +89,14 @@ include "libs/load.php";
         <div class="w-100"></div>
         <div class="col col1">
           <h1> Before</h1>
-          <img src="resource/before.jpg">
+          <img  class="img-fluid" src="resource/before.jpg">
         </div>
-        <div class="col col1">
+        <div class="col col2">
           <h1>After</h2>
-          <img src="resource/maduraiafter.jpg">
+          <img class="img-fluid" src="resource/maduraiafter.jpg">
         </div>
       </div>
     </div>
+    <?php load_temp("footer.php"); ?>
       
 </body>
