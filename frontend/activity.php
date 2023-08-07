@@ -23,99 +23,190 @@ include "libs/load.php";
 </head>
 
 <body>
-  <header><?php load_temp("header.php"); ?></header>
+  <header><?php load_temp("header1.php"); ?></header>
   <div class="container"style="background-color: #D8D9DA;border-radius: 20px;">
-    
-  <!-- <html>
-<head>
-  <title>Green Environment Awareness - Madurai</title>
-  
-</head>
-<body>
-  <div class="heade">
-    <h1>Green Environment Awareness - Madurai</h1>
-    <p>Learn and Act for a Greener Madurai</p>
-  </div>
-  
-  <div class="containe">
-    <div class="activity-title">Activity: Plant a Tree</div>
-    <div class="activity-description">
-      Help the environment and beautify Madurai by planting a tree. Trees provide essential benefits to the ecosystem and combat climate change.
-    </div>
-    <div class="activity-item">
-      <i class="activity-icon">🌳</i>
-      <div class="activity-item-text">Choose a suitable location for planting the tree.</div>
-    </div>
-    <div class="activity-item">
-      <i class="activity-icon">🏞️</i>
-      <div class="activity-item-text">Ensure the area has enough space for the tree to grow.</div>
-    </div>
-    <div class="activity-item">
-      <i class="activity-icon">🌱</i>
-      <div class="activity-item-text">Dig a hole and gently place the tree's root system into it.</div>
-    </div>
-    <div class="activity-item">
-      <i class="activity-icon">💧</i>
-      <div class="activity-item-text">Water the tree generously to help it establish its roots.</div>
-    </div>
-    <div class="activity-item">
-      <i class="activity-icon">🌞</i>
-      <div class="activity-item-text">Provide adequate sunlight for the tree's growth.</div>
-    </div>
-    <button class="action-btn">Take Action Now</button>
-  </div>
-</body>
-</html> -->
 
-<div class="row row-gx-2"style="color:">
-  <div class="card p-2">
-    <div class="card-body p-2">
-      <h1><div class="card-title">Title</div></h1>
-      <h3><div class="card-subtitle">Subtitle</div></h3>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, doloribus sunt. Illo, ea tenetur rem provident vero, unde laudantium, molestias voluptatem doloremque aperiam inventore fuga? Minus eaque nesciunt unde. Dolores!
-    </div>
-  </div>
-  <!-- qwerty -->
-</div>
-</div>
-
-<br/>
-<div class="container p-2">
-  <div class="border border-4 border-primary-subtle rounded-1 p-2">
-  <div class="container-md p-2"style="height:320px; overflow-y: scroll;">
-
-      <div class="news-feed">
-        <h2>News Feed 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row row-gx-2"style="color:">
+      <div class="card p-2">
+        <div class="card-body p-2">
+          <h1><div class="card-title">Title</div></h1>
+          <h3><div class="card-subtitle">Subtitle</div></h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, doloribus sunt. Illo, ea tenetur rem provident vero, unde laudantium, molestias voluptatem doloremque aperiam inventore fuga? Minus eaque nesciunt unde. Dolores!
+        </div>
       </div>
-      <div class="news-feed">
-        <h2>News Feed 2</h2>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-      </div>
-    <div class="news-feed">
-      <h2>News Feed 3</h2>
-      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+      <!-- qwerty -->
     </div>
-    <div class="news-feed">
-      <h2>News Feed 333</h2>
-      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-    </div>
-    <div class="news-feed">
-      <h2>News Feed 63</h2>
-      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-    </div>
-    <div class="news-feed">
-      <h2>News Feed 53</h2>
-      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-    </div>
-    <!-- Add more news feeds here -->
   </div>
-</div>
-</div>
-  <script src="script.js"></script>
-  
-  
-<footer><?php load_temp("footer.php"); ?></footer>
+  <br/>
+                        <!-- <div class="container p-2">
+                          <div class="border border-4 border-primary-subtle rounded-1 p-2">
+                          <div class="container-md p-2"style="height:320px; overflow-y: scroll;">
+
+                              <div class="news-feed">
+                                <h2>News Feed 1</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                              <div class="news-feed">
+                                <h2>News Feed 2</h2>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                              </div>
+                            <div class="news-feed">
+                              <h2>News Feed 3</h2>
+                              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                            </div>
+                            <div class="news-feed">
+                              <h2>News Feed 333</h2>
+                              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                            </div>
+                            <div class="news-feed">
+                              <h2>News Feed 63</h2>
+                              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                            </div>
+                            <div class="news-feed">
+                              <h2>News Feed 53</h2>
+                              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                            </div>
+                          </div>
+                        </div>
+                        </div> -->
+                          <!-- <script src="script.js"></script> -->
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 g-lg-4">
+      <div class="col">
+        <div class="p-2 border bg-light">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+          <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-2 border bg-light">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer><?php load_temp("footer.php"); ?></footer>
 </body>
 </html>
 <!-- <style>
