@@ -64,7 +64,8 @@ include "libs/load.php";
                                 <span class="input-group-text">.00</span>
                               </div>
                             </div>
-                            <button type="submit" >Donate Now</button>
+                            <a href="cashpay.php" class="btn btn-success">Donate Now
+                            </a>
                           </form>  
                         </section>
                   </div> 
