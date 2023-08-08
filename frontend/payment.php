@@ -24,7 +24,7 @@ include "libs/load.php";
 </head>
   <body>
     
-    <?php load_temp("header.php"); ?>
+    <?php load_temp("header1.php"); ?>
           <div class="container test">
                 <div class="row">
                    
@@ -35,12 +35,25 @@ include "libs/load.php";
                           <form>
                             <label for="categories" class="form-label">You are helping</label>
                             <select id="categories" name="categories" class="form-select" required>
+                              <option value="" disabled selected></option>
                               <option value="Trees">Trees</option>
                               <option value="DamCleaning">Dam Cleaning</option>
                               <option value="PublicPlace">Public Places</option>
                               <option value="Others">Others</option>
                               <!-- Add more currency options as needed -->
                             </select>
+                            <label for="name" class="form-label">Your Name</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                              <select id="categories" name="categories" class="form-select" required>
+                                <option value="" disabled selected></option>
+                                <option value="mr">Mr.</option>
+                                <option value="mrs">Mrs.</option>
+                                <!-- Add more currency options as needed -->
+                              </select>
+                              </div>
+                              <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
                             <label for="amount" class="form-label">Amount:</label>
                             <div class="input-group">
                               <div class="input-group-prepend">
@@ -51,7 +64,8 @@ include "libs/load.php";
                                 <span class="input-group-text">.00</span>
                               </div>
                             </div>
-                            <button type="submit" >Donate Now</button>
+                            <a href="cashpay.php" class="btn btn-success">Donate Now
+                            </a>
                           </form>  
                         </section>
                   </div> 
