@@ -34,8 +34,8 @@ include "libs/load.php";
       
         <div class="box">
           
-         <h3> <i class="bi bi-droplet"></i>Water <br> Today we can!</h3>
-          <p>Water pollution is one the main environmental <br> issues that we are facing, as more than 70% of  <br>the Earth’s surface is water-covered.</p>
+        <h3> <i class="bi bi-droplet"></i>Water <br> Today we can!</h3>
+          <p>Think about solution of water pollution.<br> Polluting water is a sin, you are making your body dustbin.</p>
     </div>
     
     <div class="cards-container">
@@ -103,8 +103,12 @@ include "libs/load.php";
     </div>
     
   </div>
-  <div class="cards-container">
-  
+  <div class="cards-container5">
+  <div class="content">
+      <h1>Vaigai river pollution</h1>
+      <p>Discover the beauty of nature and learn 1about environmental conservation.</p>
+      <a href="vaigai.php" class="btn btn-light">Read more</a>   
+     </div>
 </div>
 <div class="cards-container1">
     <h1>Water pollution prevention</h1>
@@ -112,46 +116,50 @@ include "libs/load.php";
 <div class="cards-container4">
   <div class="card4">
     <div class="logo">
-    <img src="resource/icon1.png" alt="">
+    <img src="resource/water-filter.png" alt="">
     </div>
     <h2>1. Wastewater treatment</h2>
     <p>Wastewater treatment consists of removing pollutants from wastewater through a physical, chemical or biological process. The more efficient these processes are, the cleaner the water becomes.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon2.png" alt="">
+  <img src="resource/agriculture.png" alt="">
   </div>
     <h2>2. Green agriculture</h2>
     <p>Globally, agriculture accounts for 70% of water resources, so it is essential to have climate-friendly crops, efficient irrigation that reduces the need for water and energy-efficient food production. Green agriculture is also crucial to limit the chemicals that enter the water.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon3.png" alt="">
+  <img src="resource/sewerage.png" alt="">
   </div>
     <h2>3. Stormwater management</h2>
     <p>Stormwater management is the effort to reduce runoff of rainwater or melted snow into streets, lawns and other sites and the improvement of water quality” according to the US Environmental Protection Agency (EPA). It is important to avoid pollutants from contaminating the water and helps to use water more efficiently.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon4.png" alt="">
+  <img src="resource/air-pollution.png" alt="">
   </div>
     <h2>4. Air pollution prevention</h2>
     <p>Air pollution has a direct impact on water contamination as 25% of human induced CO2 emissions are absorbed by oceans. This pollution causes a rapid acidification of our oceans, and threatens marine life and corals. Preventing air pollution is the best way to prevent this from happening.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon5.png" alt="">
+  <img src="resource/recycle.png" alt="">
   </div>
     <h2>5. Plastic waste reduction</h2>
     <p>80% of plastic in our oceans is from land sources. In order to reduce the amount of plastic entering our ocean, we need to both reduce our use of plastic globally, and to improve plastic waste management.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon6.png" alt="">
+  <img src="resource/save-water.png" alt="">
   </div>
     <h2>6. Water conservation</h2>
     <p>Without water conservation, we won’t go very far. It is central in making sure the world has better access to clean water. It means being aware that water is a scarce resource, taking care of it accordingly, and managing it responsibly.</p>
   </div>
+</div>
+<div class="cards-container1">
+    <h1>What you can do now</h1>
+    <p></p>
 </div>
 <div class="container1 donate">
       <div class="donate-background">
