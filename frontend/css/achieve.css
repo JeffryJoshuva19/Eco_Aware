@@ -1,20 +1,20 @@
 .col1{
 	border: 20px solid blanchedalmond;
-	height: 50%;
+	
 }
 .col2{
-	border: 20px solid blanchedalmond;
-	height: 483px;
+	border: 20px solid #ffebcd;
+	height: 128px;
 }
 
 .chart
 {
 	padding: 30px 10%;
 	max-width: 800px;
-	height: 400px;
+	/* height: 400px; */
 }
 
-img{
+/* img{
 	padding: 70px;
 }
 
@@ -22,7 +22,7 @@ h1{
 	font-size: medium;
 	text-align: center;
 	padding-top: 20px;
-}
+} */
 
 
 
