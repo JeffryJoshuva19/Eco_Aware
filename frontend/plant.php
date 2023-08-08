@@ -20,18 +20,26 @@ include "libs/load.php";
 
 <body>
   <?php load_temp("header1.php"); ?>
+  
   <div class="container">
-    <div class="row">
-           
-          <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
-            <!-- <img src="resource/imm1.jpg" class="card-img-top" alt="..."> -->
-            <div class="card-body">
-            </div>
-             
-          </div>
-        
-          <p class="col-md-6 g">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.<p>
+  <div class="container2 donate">
+      <div class="donate-background1">
+        <div class="donate-content1">
+          <h2>Plantation</h2>
+          <p>Your contribution can make a difference. Be a part in the mission to protect the environment and promote sustainable practices.</p>
         </div>
+      </div>
+    </div> 
+   
+    <div class="content-container3">
+    <div class="logo3">
+      <img src="resource/gardening.png" alt="Logo">
+    </div>
+    <div class="text-content3">
+      <h2>Find a perfect place for planting ,Faster!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ex vitae justo sodales consequat.</p>
+    </div>
+  </div>
         <hr>
         <div class="container1">
           <h1>8 simple steps to planting a tree</h1>
@@ -100,7 +108,6 @@ include "libs/load.php";
           </div>
         </div>
       </div>
-    </div>
     <div class="accordion-item">
         <div class="accordion-heading">Step 5: Stake the tree.</div>
         <div class="accordion-content">
@@ -122,6 +129,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 6: Tie the tree.</div>
         <div class="accordion-content">
+          
         <h2>Harvesting and storing</h2>
           <ul>
             <li>Ties should be placed at the lowest point on the trunk where the tree can be held straight, generally about 4 feet from the ground.</li>
@@ -161,28 +169,74 @@ include "libs/load.php";
         </div>
       </div>
     </div>
-    <div class="container1 donate">
-      <div class="donate-background">
-        <div class="donate-content">
+    <div class="container2">
+    <div class="content2">
+      <h2>see how to plant a tree</h2>
+      <p>you canwatch this video to get clear idea about planting a tree</p>
+    </div>
+    <div class="video2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SJfpnGEMrKM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+    <div class="container3 donate">
+      <div class="donate-background1">
+        <div class="donate-content1">
           <h2>Support Our Cause</h2>
           <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
           <a href="payment.php" class="btn btn-light">Donate now</a>
+
         </div>
       </div>
+    </div> 
+    <div class="text-content4">
+      <h2>What we do with your donations</h2>
     </div>
+    <div class="main-container">
     
-    <div class="video-container">
-    <!-- Video on the right side -->
-    <div class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="logo-container">
+      <img src="resource/farmer.png" alt="Logo 1">
+      <p>Identification of beneficiary farmers</p>
     </div>
-    <!-- Text on the left side -->
-    <div class="video-text">
-      <p>
-      Graine de Vie is a network of non-governmental organizations dedicated to reforestation integrated into local life since 2009. Each structure has a board of directors whose members are volunteers and a multidisciplinary executive team.      </p>
+    <div class="logo-container">
+      <img src="resource/planting.png" alt="Logo 2">
+      <p>Procurement of saplings</p>
+    </div>
+    <div class="logo-container">
+      <img src="resource/deforestation.png" alt="Logo 3">
+      <p>Post plantation interventions and monitoring</p>
+    </div>
+    <div class="logo-container">
+      <img src="resource/deforestation.png" alt="Logo 4">
+      <p>hazardous tree removal.</p>
     </div>
   </div>
+    <div class="head">Here what you can</div>
+    <div class="cards-container4">
 
+  <div class="card4">
+    <div class="logo">
+    <img src="resource/volunteer.png" alt="">
+    </div>
+    <h2>Volunteers</h2>
+    <p>We believe bringing positive change in madurai is not a single handed process. It  be supported by the 'Power Of People’ And the Power of people must be led by 'Power of Unity’ with a good deed.<a href="contact.php">contact us</a></p>
+   
+  </div>
+  <div class="card4">
+  <div class="logo">
+  <img src="resource/corporates.png" alt="">
+  </div>
+    <h2>corporates</h2>
+    <p>We enable CSR activities, which are the responsibility as well as an opportunity for corporates to impact social, environmental and economic dimensions. Thereby create a more sustainable earth and better world for humanity</p>
+  </div>
+  <div class="card4">
+  <div class="logo">
+  <img src="resource/communities.png" alt="">
+  </div>
+    <h2>Communities</h2>
+    <p>We invite you to come together with your community (school, college, housing societies etc.) for the betterment of the environment. It is a step towards creating a big change in society.</p>
+  </div>
+  </div>
+     </div>
     
   </div>
 
