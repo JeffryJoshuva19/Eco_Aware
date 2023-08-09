@@ -1,5 +1,5 @@
 body {
-   font-family: ;
+   
    line-height: 1.6;
    margin: 0;
    padding: 0;
@@ -71,7 +71,6 @@ h2 {
     color : #0b140b;
 }
 .donation-form {
-    background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(255, 255, 255, 0.2);

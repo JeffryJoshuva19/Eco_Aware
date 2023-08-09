@@ -18,13 +18,13 @@ include "libs/load.php";
     <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
     <link href="css/home.css" rel="stylesheet">
     <script src="js/home.js"></script>
-    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="../frontend/css/donate.css">
 
     
 </head>
     <body>
         <div class="container p-2" >
-            <div class="card border-primary mb-3 p-4" style="border-width: 3px;
+            <div class="card border-dark mb-3 p-4" style="border-width: 3px;
                 border-style: solid;">
                 <!-- <div class="border border-4 border-info-subtle rounded-3 p-4" > -->
                 <div class="card-header">
@@ -165,7 +165,7 @@ include "libs/load.php";
                 </div>
                 <div class="row gx-3">
                     <div class="col-12">
-                        <div class="btn btn-success m-2">
+                        <div class="btn pay m-2">
                             <span class="p-5">Pay</span>
                             <span class="fas fa-arrow-right"></span>
                         </div>
@@ -184,7 +184,7 @@ include "libs/load.php";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Caladea';
 }
 
 body {
@@ -192,7 +192,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background-color: #0C4160; */
+    background-color: #e8f3e9;
 
     padding: 30px 10px;
 }
@@ -203,68 +203,13 @@ body {
     color: black;
     border-radius: 20 px;
 }
-
-/* p {
-    margin: 0px;
-}
-
-.container .h8 {
-    font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-}
-
-.btn.btn-primary {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15px;
-    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
-    border: none;
-    transition: 0.5s;
-    background-size: 200% auto;
+.pay:hover{
+  background-color: #2e5631;
+  color:#fff;
 
 }
-
-
-.btn.btn.btn-primary:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
+.pay{
+  background-color: #569f5b;
+  color:#fff;
 }
-
-
-
-.btn.btn-primary:hover .fas.fa-arrow-right {
-    transform: translate(15px);
-    transition: transform 0.2s ease-in;
-}
-
-.form-control {
-    color: white;
-    background-color: #223C60;
-    border: 2px solid transparent;
-    height: 60px;
-    padding-left: 20px;
-    vertical-align: middle;
-}
-
-.form-control:focus {
-    color: white;
-    background-color: #0C4160;
-    border: 2px solid #2d4dda;
-    box-shadow: none;
-}
-
-.text {
-    font-size: 14px;
-    font-weight: 600;
-}
-
-::placeholder {
-    font-size: 14px;
-    font-weight: 600;
-} */
 </style>
