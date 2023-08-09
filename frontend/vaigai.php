@@ -22,40 +22,6 @@ include "libs/load.php";
 
 <body>
     <?php load_temp("header1.php"); ?>
-    <!-- <div class="container">
-    <div class="card1">
-            <img src="resource/vaigai.jpg" class="test">
-            <div class="overlay-text">
-    <h2>Analysis of vaigai <br> river pollution</h2>
-    <p>Additional information about <br> water quality improvement <br> can go here.</p>
-  </div>
-    <div class="cause">
-      <h2>Industrial Discharge</h2>
-      <p>Industries along the river release untreated effluents with chemicals and heavy metals, degrading water quality.</p>
-    </div>
-    <div class="cause">
-      <h2>Sewage and Wastewater</h2>
-      <p>Untreated sewage from households and urban areas can introduce pathogens and nutrients into the river.</p>
-    </div>
-    <div class="cause">
-      <h2>Solid Waste Dumping</h2>
-      <p>Improper disposal of waste along the riverbanks leads to litter accumulation and affects water quality.</p>
-    </div>
-    <div class="cause">
-      <h2>Solid Waste Dumping</h2>
-      <p>Improper disposal of waste along the riverbanks leads to litter accumulation and affects water quality.</p>
-    </div>
-    <div class="cause">
-      <h2>Solid Waste Dumping</h2>
-      <p>Improper disposal of waste along the riverbanks leads to litter accumulation and affects water quality.</p>
-    </div>
-    <div class="cause">
-      <h2>Solid Waste Dumping</h2>
-      <p>Improper disposal of waste along the riverbanks leads to litter accumulation and affects water quality.</p>
-    </div> 
-</div>
-    
-    </div> -->
     <div class="container">
     <center>
       <div class="pbg">
