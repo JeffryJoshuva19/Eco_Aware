@@ -27,7 +27,7 @@ include "libs/load.php";
     <div class="container">
       <div class="row">
         <div class="col col1">
-          <div class="chart">
+          <div class="card chart">
               <canvas id="myChart"></canvas>
           </div>
 
@@ -57,7 +57,7 @@ include "libs/load.php";
           </script>
         </div>
         <div class="col col1">
-          <div class="chart">
+          <div class="card chart">
               <canvas id="chart"></canvas>
           </div>
 
@@ -88,12 +88,22 @@ include "libs/load.php";
         </div>
         <div class="w-100"></div>
         <div class="col col1">
-          <h1> Before</h1>
-          <img  class="img-fluid" src="resource/before.jpg">
+          <div class="card">
+        <video width="100%" height="100%" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+            </div>
         </div>
         <div class="col col2">
-          <h1>After</h2>
-          <img class="img-fluid" src="resource/maduraiafter.jpg">
+          <div class="card">
+            <video width="100%" height="100%" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+            </div>
         </div>
       </div>
     </div>
