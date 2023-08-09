@@ -5,58 +5,59 @@ include "libs/load.php";
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
-    <script src="vendor/assets/js/color-modes.js"></script>
+    <script src="frontend/vendor/assets/js/color-modes.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="Hugo 0.112.5">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link href="vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="css/contact.css" rel="stylesheet">
-    <script src="js/achieve.js"></script>
+    <script src="frontend/vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="frontend/css/contact.css" rel="stylesheet">
+    <script src="frontend/js/achieve.js"></script>
     
   </head>
 </head>
 
 <body>
     <?php load_temp("header.php"); ?>
+    {% include "header1.php"%}
     <div class="container">
         <div class="card2">
             <h1>Contacts</h1>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
                 <div class="card card1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
-                    <img src="resource/nss.jpg" class="card-img-top test" alt="...">
+                    <img src="frontend/resource/nss.jpg" class="card-img-top test" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card card3" data-bs-toggle="modal" data-bs-target="#example1Modal" style="width: 18rem;">
-                        <img src="resource/ncc.jpg" class="card-img-top test" alt="...">
+                        <img src="frontend/resource/ncc.jpg" class="card-img-top test" alt="...">
                 </div>
             </div>  
              <div class="col">
                 <div class="card card4" data-bs-toggle="modal" data-bs-target="#example2Modal" style="width: 18rem;">
-                        <img src="resource/rotary.jpg" class="card-img-top test" alt="...">
+                        <img src="frontend/resource/rotary.jpg" class="card-img-top test" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card card5" data-bs-toggle="modal" data-bs-target="#example3Modal" style="width: 18rem;">
-                        <img src="resource/lions.jpg" class="card-img-top test" alt="...">
+                        <img src="frontend/resource/lions.jpg" class="card-img-top test" alt="...">
                 </div>
             </div>  
              <div class="col">
                 <div class="card card6" data-bs-toggle="modal" data-bs-target="#example4Modal" style="width: 18rem;">
-                            <img src="resource/eco.jpg" class="card-img-top test" alt="...">
+                            <img src="frontend/resource/eco.jpg" class="card-img-top test" alt="...">
                 </div>
             </div>
             <div class="col">
                 <div class="card card7" data-bs-toggle="modal" data-bs-target="#example5Modal" style="width: 18rem;">
-                            <img src="resource/red.jpg" class="card-img-top test" alt="...">
+                            <img src="frontend/resource/red.jpg" class="card-img-top test" alt="...">
                 </div>
             </div>  
         </div>
@@ -149,5 +150,6 @@ include "libs/load.php";
         
 
     </div>
+    {% include "footer.php"%}
     <?php load_temp("footer.php"); ?>
 </body>

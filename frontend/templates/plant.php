@@ -5,21 +5,22 @@ include "libs/load.php";
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 <head>
-  <script src="vendor/assets/js/color-modes.js"></script>
+  <script src="frontend/vendor/assets/js/color-modes.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="generator" content="Hugo 0.112.5">
-  <link href="vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link href="css/plant.css" rel="stylesheet">
+  <link href="frontend/css/plant.css" rel="stylesheet">
   
 </head>
 
 <body>
   <?php load_temp("header1.php"); ?>
+  {%include "header1.php"%}
   
   <div class="container">
   <div class="container2 donate">
@@ -33,7 +34,7 @@ include "libs/load.php";
 
     <div class="content-container3">
     <div class="logo3">
-      <img src="resource/gardening.png" alt="Logo">
+      <img src="frontend/resource/gardening.png" alt="Logo">
     </div>
     <div class="text-content3">
       <h2>Find a perfect place for planting ,Faster!</h2>
@@ -241,6 +242,7 @@ include "libs/load.php";
      </div>
     
   </div>
+  {% include "footer.php"%}
 
 
   <script>
