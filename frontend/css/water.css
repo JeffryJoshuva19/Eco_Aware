@@ -1,9 +1,77 @@
+/*color
+text = rgb(11,20,11)
+background= rgb(232,243,233)
+primary = rgb(46,86,49)
+secondary = rgb(215,234,216)
+asscent = rgb(86,159,91)
+*/
+
+h1, h2, h3{
+  font-family: 'Koh Santepheap';
+ 
+}
+p{
+  font-family: 'caladea';
+
+}
 .container1 {
     padding: 10px 5%;
   }
   .container2{
     padding: 10px 5%;
   }
+  .container3.donate {
+    position: relative;
+    width: 100%;
+    height: 400px; /* You can adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    background-image: url('../resource/water2.jpg');
+  }
+  .donate-background1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+  }
+  
+  /* Style for the content */
+  .donate-content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  .donate-content2 p{
+    font-size: 20px;
+    color: white;
+  }
+  .donate-content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+      
+  /*helo*/
+
+.box-container{
+  background: rgb(232,243,233,0.3);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+/*end*/
   .image {
     width: 100%;
     height: 300px;
@@ -11,6 +79,7 @@
   }
   .card1 {
     position: relative;
+    margin-top: 0px;
   }
   
   .col-md-6 g{
@@ -59,17 +128,17 @@
     text-align: center;
     padding: 40px 20px;
     margin-top: 0px;
-    background-color: white;
+ 
   }
   
   .box h3 {
-    color: darkblue;
+    color: rgb(46,86,49);
     font-size: 30px;
     padding: 10px 0;
   }
   
   .box p {
-    color: orange;
+    color: rgb(11,20,11);
     font-size: 18px;
     line-height: 1.8;
   }
@@ -86,12 +155,17 @@
   .card {
     flex: 1;
     max-width: 300px;
-    background-color: white;
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
+    background:rgb(232,243,233,0.3);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    
   }
   
   .card:hover {
@@ -99,7 +173,7 @@
   }
   
   .card h3 {
-    color: darkblue;
+    color: rgb(46,86,49);
     font-size: 24px;
   }
   .card p {
@@ -121,17 +195,7 @@
     padding: 20px;
     border-radius: 5px;
   }
- 
-  .card {
-    flex: 1;
-    max-width: 300px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-  }
+
 
 .adj{
   border-radius: 30px;
@@ -184,16 +248,17 @@ display: none;
 p{
 font-size: 20px;
 font: bolder;
+color: rgb(11,20,11);
 }
 .row h1{
   text-align: left;
   padding-top: 10px;
-    color: orange;
+    color: rgb(46,86,49);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
 hr {
-  border-top: 5px solid orange;
+  border-top: 5px solid rgb(46,86,49);
   width: 50%;
 }
 
@@ -202,10 +267,18 @@ hr {
     justify-content: space-between;
     gap: -5px;
     margin-top: 0px;
-    padding: 20px;
-    margin-bottom: 10px;
-    background-color: white;
-    color: rgb(0, 179, 255);
+    padding: 10px;
+    margin-top: 10px;
+      font-style: bold;
+      font-size: 20px;
+      padding: 20px;
+      color: rgb(46,86,49);
+    background: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.20 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
 }
 
 .cards-container1 p{
@@ -235,7 +308,12 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: rgb(216, 230, 235);
+  background: rgb(232,243,233,0.3);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   
 }
 
@@ -246,12 +324,13 @@ hr {
   margin-bottom: 20px;
   box-sizing: border-box;
   text-align: justify;
+  
 }
 
 .card4 h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: rgb(11, 95, 123);
+  color: rgb(46,86,49);
 }
 
 .card4 p {
@@ -306,6 +385,7 @@ hr {
 .donate-content p {
   font-size: 16px;
   margin: 10px 0;
+  color: white;
 }
 
 /* Style for the donate button */
@@ -360,4 +440,80 @@ hr {
 .logo3 img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    flex: 1 1 100%; 
+  }
+}
+
+.content-container3 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.logo3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px; /* Changed from margin-right */
+  order: 2; /
+}
+
+.logo3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-content3 {
+  flex: 1;
+  order: 1; 
+}
+
+.text-content3 h1 {
+  margin-top: 0;
+  color: green;
+
+  text-align: center;
+}
+.text-content3 h2 {
+  margin-top: 10px;
+  color: rgb(46,86,49);
+
+}
+
+.text-content3 p {
+  line-height: 1.6;
+  color: rgb(11, 20, 11);
+
+}
+
+@media screen and (max-width: 768px) {
+  .cards-container4 {
+    display: block; /* Stack cards vertically */
+    background-color: rgb(232,243,233);
+  }
+
+  .card4 {
+    width: 90%; /* Adjust the maximum width as needed */
+    margin: 20px auto; /* Center-align cards and provide space between */
+    text-align: center; /* Center-align content */
+  }
+
+  .logo img {
+    width: auto; /* Keep the original image width */
+    height: auto; /* Keep the original image height */
+    max-width: 100%; /* Ensure it doesn't overflow the parent container */
+    padding: 0; /* Remove padding */
+  }
 }

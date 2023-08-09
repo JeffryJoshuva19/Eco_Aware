@@ -12,8 +12,47 @@
 .card1 {
   position: relative;
 }
+.container3.donate {
+  position: relative;
+  width: 100%;
+  height: 400px; /* You can adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  background-image: url('../resource/widepollution.jpg');
+}
+.donate-background1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity as needed */
+}
 
-
+/* Style for the content */
+.donate-content1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.donate-content2 p{
+  font-size: 20px;
+}
+.donate-content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+    
+/*helo*/
 .card1 img {
   width: 100%;
   height: 500px;
@@ -61,7 +100,7 @@
 }
 
 .box h3 {
-  color: black;
+  color: rgb(46, 86, 49);
   font-size: 30px;
   padding: 10px 0;
 }
@@ -88,7 +127,7 @@
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  text-align: justify;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -97,11 +136,13 @@
 }
 
 .card h3 {
-  color: black;
+  color: rgb(46, 86, 49);
   font-size: 24px;
 }
 .card p {
   font-size: 16px;
+  text-align: justify;
+
 }
 
 .image-text {
@@ -113,7 +154,7 @@
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgb(46, 86, 49);
   padding: 20px;
   border-radius: 5px;
 }
@@ -121,12 +162,15 @@
 .card {
   flex: 1;
   max-width: 300px;
-  background-color: white;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease-in-out;
+  background: rgba( 215, 234, 216, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .adj{
@@ -184,12 +228,12 @@ font: bolder;
 .row h1{
 text-align: left;
 padding-top: 10px;
-  color: orangered;
+  color: rgb(46, 86, 49);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 hr {
-border-top: 5px solid orange;
+border-top: 5px solid rgb(46, 86, 49);
 width: 50%;
 }
 
@@ -201,7 +245,7 @@ display: flex;
   padding: 20px;
   margin-bottom: 10px;
   background-color: white;
-  color: rgb(173, 220, 240);
+  color: rgb(46, 86, 49);
 }
 
 .cards-container1 p{
@@ -216,7 +260,12 @@ color: black;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-background-color: rgb(216, 230, 235);
+background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
@@ -231,12 +280,14 @@ box-sizing: border-box;
 .card4 h2 {
 font-size: 24px;
 margin-bottom: 10px;
-color: black;
+color: rgb(46, 86, 49);
 }
 
 .card4 p {
 font-size: 16px;
 line-height: 1.5;
+text-align: justify;
+
 }
 
 .logo img{
@@ -247,7 +298,6 @@ padding: 10px;
 @media screen and (max-width: 768px) {
   .cards-container4 {
     display: block; /* Stack cards vertically */
-    background-color: rgb(216, 230, 235);
   }
 
   .card4 {
@@ -265,5 +315,56 @@ padding: 10px;
 }
 
 
+.content-container3 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 
+}
 
+.logo3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px; /* Changed from margin-right */
+  order: 2; /
+}
+
+.logo3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-content3 {
+  flex: 1;
+  order: 1; 
+}
+
+.text-content3 h1 {
+  margin-top: 0;
+  color: green;
+  text-align: center;
+}
+.text-content3 h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.text-content3 p {
+  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+}

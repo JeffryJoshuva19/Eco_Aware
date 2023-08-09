@@ -24,13 +24,14 @@ include "libs/load.php";
 <body>
     <?php load_temp("header1.php"); ?>
     <div class="container">
-    <div class="card1">
-            <img src="resource/widepollution.jpg" class="test">
-            <div class="overlay-text">
-    <h2>How to improve <br> air quality?</h2>
-    <p>Additional information about <br> water quality improvement <br> can go here.</p>
-  </div>
-    </div>
+    <div class="container3 donate">
+      <div class="donate-background1">
+        <div class="donate-content2">
+          <h1>Support Our Cause</h1>
+          <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
+        </div>
+      </div>
+    </div> 
       <div class="box-container">
       
         <div class="box">
@@ -57,31 +58,25 @@ include "libs/load.php";
   <div class="cards-container">
     <h1>Causes of air pollution?</h1>
 </div>
-  <div class="cards-container">
-  <p>Air pollution is caused by solid and liquid particles and certain gases that are suspended in the air. These particles and gases can come from car and truck exhaust, factories, dust, pollen, mold spores, volcanoes and wildfires. The solid and liquid particles suspended in our air are called aerosols.</p>
 
-  </div>
   <div class="cards-container">
 
     <div class="card">
-    <img src="resource/car.jpeg" alt="">
+    <img src="resource/gas-fumes.jpg" alt="">
       <h3>Automobiles</h3>
       <p>The gases emitted from vehicles such as jeeps, trucks, cars, buses, etc. pollute the environment. These are the major sources of greenhouse gases and also result in diseases among individuals.</p>
-            <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
       <img src="resource/smokestacks.jpg" alt="">
       <h3>Factories and Industries</h3>
       <p>Factories and industries are the main source of carbon monoxide, organic compounds, hydrocarbons and chemicals. These are released into the air, degrading its quality.</p>
-            <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
       <img src="resource/amonia.jpg" alt="">
       <h3>Agricultural Activities</h3>
       <p>Ammonia is one of the most hazardous gases emitted during agricultural activities. The insecticides, pesticides and fertilisers emit harmful chemicals in the atmosphere and contaminate it.</p>
-            <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     
@@ -92,7 +87,6 @@ include "libs/load.php";
       <img src="resource/paint.jpeg" alt="">
       <h3>Domestic Sources</h3>
       <p>The household cleaning products and paints contain toxic chemicals that are released in the air. The smell from the newly painted walls is the smell of the chemicals present in the paints. It not only pollutes the air but also affects breathing.</p>
-            <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
@@ -100,7 +94,6 @@ include "libs/load.php";
       <img src="resource/coal.jpg" alt="">
       <h3>Burning of Fossil Fuels</h3>
       <p>The combustion of fossil fuels emits a large amount of sulphur dioxide. Carbon monoxide released by incomplete combustion of fossil fuels also results in air pollution.</p>
-            <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
@@ -108,14 +101,11 @@ include "libs/load.php";
       <img src="resource/mines.jpg" alt="">
       <h3>Mining Activities</h3>
       <p>In the mining process, the minerals below the earth are extracted using large pieces of equipment. The dust and chemicals released during the process not only pollute the air, but also deteriorate the health of the workers and people living in the nearby areas</p>
-            <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     
   </div>
-  <div class="cards-container">
-  
-</div>
+
 <div class="cards-container1">
     <h1>Best Ways to Reduce Air Pollution</h1>
 </div>
@@ -163,11 +153,16 @@ include "libs/load.php";
     <p>The usage of AC’s takes a lot of energy and emits a lot of heat which is bad for the environment. AC’s also take a lot of power and energy to work as compared to fans.</p>
   </div>
 </div>
-<div class="box-container">
-      
-        
-  
-</div>
+<div class="content-container3">
+    <a class="logo3" href="airsteps.php">
+      <img src="resource/snap1.png" alt="Logo">
+</a>
+    <div class="text-content3">
+      <h1>How can you make it</h1>
+      <h2>Easy Ways to Reduce Water Pollution Now</h2>
+      <p>click on the logo so that you may get some tips to make some contribution to madurai</p>
+    </div>
+  </div>
   <?php load_temp("footer.php"); ?>
 
 </body>

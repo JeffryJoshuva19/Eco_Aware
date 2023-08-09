@@ -1,6 +1,5 @@
 
 .container1 {
-  
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
@@ -8,7 +7,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+.container1 h1{
+  font-size: 40px;
+  text-align: center;
 
+}
 /* Additional styling for box-container */
 .box-container {
   display: flex;
@@ -48,10 +51,13 @@
 
 .accordion-item {
   margin-bottom: 15px;
-  border: 2px solid darkgreen;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background: rgba( 163, 227, 231, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .accordion-heading {
@@ -72,7 +78,7 @@
 .accordion-content {
   padding: 15px;
   display: none;
-  background-color: rgb(205, 225, 205);
+  background: rgba( 163, 227, 231, 0.25 );
 }
 
 .accordion-content.active {
@@ -217,22 +223,8 @@
   }
 }
 
-.accordion-content ul li {
-  margin-bottom: 10px;
-  list-style: none;
-  position: relative;
-  padding-left: 20px;
-}
 
-/* Custom bullet design for the <li> elements */
-.accordion-content ul li::before {
-  content: "\f18d"; /* Unicode bullet character */
-  position: absolute;
-  left: 0;
-  top: 6px;
-  font-size: 1.2em;
-  color: green; /* Customize bullet color */
-}
+
 
 /* Media query for smaller screens (optional) */
 @media (max-width: 768px) {
@@ -285,13 +277,29 @@
 
 /* Style for the heading */
 .donate-content1 h2 {
-  font-size: 24px;
+  font-size: 60px;
+  
+}
+.donate-content2 h1{
+  font-size: 30px;
+}
+.donate-content2 p{
+  font-size: 20px;
 }
 
 /* Style for the paragraph */
 .donate-content1 p {
-  font-size: 16px;
+  font-size: 24px;
   margin: 10px 0;
+}
+.donate-content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
 }
 
 /* Style for the donate button */
@@ -387,13 +395,14 @@ a:hover {
 
 .content2 h2 {
   margin-top: 0;
-  color: #333;
-  text-align: center; 
+  color: green;
+  text-align: left; 
 }
 
 .content2 p {
   line-height: 1.6;
   color: #555;
+  text-align: justify;
 }
 
 .video2 {
@@ -417,8 +426,12 @@ a:hover {
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #f5f5f5;
+  background: rgba( 163, 227, 231, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.27 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
   border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .logo3 {
@@ -435,7 +448,13 @@ a:hover {
 .text-content3 {
   flex: 1;
 }
+.icon {
+  margin-right: 10px;
+}
 
+.icon img {
+  height: 24px; /* Adjust the height as needed */
+}
 .text-content3 h2 {
   margin-top: 0;
   color: #333;
@@ -496,9 +515,12 @@ h1 {
   text-align: center;
   margin: 10px;
   padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.10 );
 }
 
 .logo-container img {
@@ -520,4 +542,122 @@ h1 {
 
 .text-content4{
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+/* Default styles */
+
+/* Your existing styles for larger screens here */
+
+/* Media query for screens with max-width 768px (smaller screens) */
+@media (max-width: 768px) {
+  /* Update container and content styles for smaller screens */
+  .container {
+    padding: 10px;
+  }
+
+  .container2.donate {
+    height: 300px; /* Adjust height for smaller screens */
+  }
+
+  .donate-content1 h2 {
+    font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  /* Update other styles as needed for smaller screens */
+  
+  /* Update accordion item styles for smaller screens */
+  .accordion-item {
+    margin-bottom: 10px; /* Reduce margin */
+    border-radius: 5px; /* Adjust border radius */
+  }
+
+  .accordion-heading {
+    font-size: 18px; /* Adjust font size */
+  }
+
+  .accordion-content {
+    padding: 10px; /* Adjust padding */
+  }
+
+  .accordion-icon {
+    font-size: 16px; /* Adjust font size for icon */
+  }
+
+  /* Update video styles for smaller screens */
+  .video iframe {
+    height: 200px; /* Adjust video height */
+  }
+
+  /* Update donate section styles for smaller screens */
+  .donate-background1 {
+    padding: 30px 10px; /* Adjust padding */
+  }
+
+  .donate-content1 h2 {
+    font-size: 40px; /* Adjust font size */
+  }
+
+  .donate-content1 p {
+    font-size: 18px; /* Adjust font size */
+  }
+
+  /* Update video-container styles for smaller screens */
+  .video-container iframe {
+    max-width: 100%; /* Adjust max width for videos */
+    height: 200px; /* Adjust video height */
+  }
+
+  /* Update text styles for smaller screens */
+  .video-text {
+    padding: 10px; /* Adjust padding */
+  }
+
+  /* Update logo styles for smaller screens */
+  .logo img {
+    max-width: 40px; /* Adjust logo size */
+  }
+
+  /* Update card styles for smaller screens */
+  .card4 {
+    flex: 0 0 calc(50% - 10px); /* Adjust card width */
+    margin-bottom: 10px; /* Reduce margin */
+  }
+
+  .card4 h2 {
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .card4 p {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  /* Update .head styles for smaller screens */
+  .head {
+    font-size: 30px; /* Adjust font size */
+  }
+  .container3.donate {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .donate-content2 {
+    text-align: center; /* Center align content */
+  }
+
+  .donate-content2 h1 {
+    font-size: 28px; /* Adjust font size for heading */
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+
+  .donate-content2 p {
+    font-size: 16px; /* Adjust font size for paragraph */
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+
+  .btn.btn-light {
+    display: block; /* Display button as block for full width */
+    margin: 0 auto; /* Center align button */
+    max-width: 200px; /* Limit button width */
+  }
 }
