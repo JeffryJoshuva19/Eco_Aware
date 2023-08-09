@@ -236,3 +236,42 @@ def put_event(id:int,request:Request,db:Session=Depends(get_db)):
     find=db.query(model.Contact).filter(model.Contact.id==id,model.Contact.status=="ACTIVE").first()
     json_compatible_item_data = jsonable_encoder(find)
     return JSONResponse(content=json_compatible_item_data)
+
+@app.get('/get_plant')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("plant.php", context={"request": request})
+
+@app.get('/get_water')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("water.php", context={"request": request})
+
+@app.get('/get_waste')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("waste.php", context={"request": request})
+    
+@app.get('/get_watersteps')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("watersteps.php", context={"request": request})
+
+@app.get('/get_watercontroll')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("watercontroll.php", context={"request": request})
+
+@app.get('/get_vaigai')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("vaigai.php", context={"request": request})
+
+@app.get('/get_contact')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("contact.php", context={"request": request})
+
+@app.get('/get_activity')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("activity.php", context={"request": request})
+@app.get('/get_air')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("air.php", context={"request": request})
+
+@app.get('/get_airsteps')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("airsteps.php", context={"request": request})
