@@ -1,5 +1,5 @@
 body {
-   
+  font-family: 'Caladea', sans-serif;
    line-height: 1.6;
    margin: 0;
    padding: 0;
@@ -32,7 +32,8 @@ h2 {
    margin-top: 0;
    font-size: 1.2em;
    color: #0b140b;
-   font-family: 'Koh Santepheap'; 
+   font-family: 'Caladea', sans-serif;
+
 }
 
 .numbe {
@@ -67,7 +68,7 @@ h2 {
 }
    body {
     font-size: 20px;
-    font-family: 'Caladea';
+    
     color : #0b140b;
 }
 .donation-form {

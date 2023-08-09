@@ -21,7 +21,7 @@ include "libs/load.php";
 
 
 <body>
-    <?php load_temp("header1.php"); ?>
+    <?php load_temp("header1.php"); ?>  
     <div class="container">
     <center>
       <div class="pbg">
@@ -35,7 +35,7 @@ include "libs/load.php";
 
         <br>
         <div style="background-color:#fff;padding:15px;border-radius:10px;border:solid #7ddcd3ff 5px;color:#000;">
-          <div style="padding:10px;font-family:cambria;text-align:left;font-size:16px;">
+          <div style="padding:10px;text-align:left;font-size:16px;">
 
             <h2>The Vaigai River Restoration Project: Reviving a Lifeline, Restoring a Community</h2>
             <p>Nestled in the heart of Southern India, the Vaigai River has long been a lifeline for the people, culture, and environment of the region. Over the years, however, the river and its surroundings have faced challenges that threatened their very existence. In response to these challenges, a visionary project known as the Vaigai River Restoration Project was initiated, igniting a beacon of hope and transformation for the community.</p>

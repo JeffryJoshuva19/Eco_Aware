@@ -7,7 +7,7 @@
 }
 .content {
   padding:10px;
-  font-family:cambria;
+  font-family: "Koh Santepheap", sans-serif;  
   text-align:left;
   font-size:16px;
 }
@@ -21,8 +21,8 @@
 }
 .content1 {
   padding:10px;
-  font-family:cambria;
-  text-align:left;
+  font-family: "Koh Santepheap", sans-serif;
+    text-align:left;
   font-size:16px;
 }
 .clr{
@@ -42,4 +42,14 @@
   background:url("../resource/dam.jpg");
   background-position:left;
   border-radius:10px;
+}
+p{
+  font-family: 'Caladea', sans-serif;
+    color : #0b140b;
+}
+
+body{
+  font-size: 20px;
+  font-family: "Koh Santepheap", sans-serif;
+    color : #0b140b;
 }
