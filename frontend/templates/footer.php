@@ -1,5 +1,5 @@
 <head>
-    <link href="css/footer.css" rel="stylesheet">
+    <link href="frontend/css/footer.css" rel="stylesheet">
  </head>
  <div class="container chan">
   <footer class="py-5">
