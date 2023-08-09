@@ -12,21 +12,25 @@ include "libs/load.php";
     <meta name="author" content="">
     <meta name="generator" content="Hugo 0.112.5">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link href="vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="frontend/vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="resource/iconn.ico">
-    <link href="css/home.css" rel="stylesheet">
-    <script src="js/home.js"></script>
+    <link rel="icon" type="image/x-icon" href="frontend/resource/iconn.ico">
+    <link href="frontend/css/home.css" rel="stylesheet">
+    <script src="frontend/js/home.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
     
   </head>
 </head>
 <?php load_temp("header.php"); ?>
+{% include "header.php"%}
 
 <body>
     <div class="container" id="about-section">
@@ -52,11 +56,11 @@ include "libs/load.php";
             <span class="visually-hidden">Next</span>
           </button>
         </div> -->
-
+        <h1 class="adjt">Complaints</h1>
         <div class="row content">
            
           <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
-            <!-- <img src="resource/imm1.jpg" class="card-img-top" alt="..."> -->
+            <!-- <img src="frontend/resource/imm1.jpg" class="card-img-top" alt="..."> -->
             <div class="card-body">
             </div>
              
@@ -65,7 +69,7 @@ include "libs/load.php";
           <p class="col-md-6 g content">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.<p>
         </div>
         <hr>
-
+        <h1 class="adjt">Donation</h1>
           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
@@ -76,17 +80,17 @@ include "libs/load.php";
                   </button>
                 </div>
                 <div class="modal-body">
-                  <form action="#" method="POST">
+                  <form action="/post_query" method="POST">
                       <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="" required>
+                        <input type="text" class="form-control" id="area" name="area" placeholder="" required>
                         <label for="floatingInput">Area</label>
                       </div>
                       <div class="form-floating mb-3">
-                        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                        <input type="number" class="form-control" id="wnum" name="wnum" placeholder="name@example.com" required>
                         <label for="floatingInput">Ward number</label>
                       </div>
                       <div class="form-floating mb-3">
-                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="4" cols="50" required></textarea>
+                      <textarea class="form-control" placeholder="Leave a comment here" id="query" name="query" rows="4" cols="50" required></textarea>
                       <label for="floatingInput">Enter your queries</label>
                       </div>
                 </div>
@@ -109,77 +113,60 @@ include "libs/load.php";
             </div>
            </div>
           </div>
-          <hr>          
           </div>
+          <hr>
+          <h1 class="adjt">Events</h1>
           <div class="container-fluid content">
           <div class="row">
               <div class="col-lg-12">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="hori-timeline" dir="ltr">
-                              <ul class="list-inline events">
-                                  <li class="list-inline-item event-list">
-                                      <div class="px-4">
-                                          <div class="event-date bg-soft-primary text-primary">2 June</div>
-                                          <h5 class="font-size-16">Event One</h5>
-                                          <p class="text-muted">It will be as simple as occidental in fact it will be Occidental Cambridge friend</p>
-                                          <div>
-                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                          </div>
-                                      </div>
-                                  </li>
-                                  <li class="list-inline-item event-list">
-                                      <div class="px-4">
-                                          <div class="event-date bg-soft-success text-success">5 June</div>
-                                          <h5 class="font-size-16">Event Two</h5>
-                                          <p class="text-muted">Everyone realizes why a new common language one could refuse translators.</p>
-                                          <div>
-                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                          </div>
-                                      </div>
-                                  </li>
-                                  <li class="list-inline-item event-list">
-                                      <div class="px-4">
-                                          <div class="event-date bg-soft-danger text-danger">7 June</div>
-                                          <h5 class="font-size-16">Event Three</h5>
-                                          <p class="text-muted">If several languages coalesce the grammar of the resulting simple and regular</p>
-                                          <div>
-                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                          </div>
-                                      </div>
-                                  </li>
-                                  <li class="list-inline-item event-list">
-                                      <div class="px-4">
-                                          <div class="event-date bg-soft-warning text-warning">8 June</div>
-                                          <h5 class="font-size-16">Event Four</h5>
-                                          <p class="text-muted">Languages only differ in their pronunciation and their most common words.</p>
-                                          <div>
-                                              <a href="#" class="btn btn-primary btn-sm">Read more</a>
-                                          </div>
-                                      </div>
-                                  </li>
-                                  
-                              </ul>
+                  <div class="">
+                     
+                      <div class="card-body row">
+                        {% for i in eventt%}
+                      <div class="col-md-4">
+                        <div class="card ecard" style="width: 17rem;background-color: aquamarine;">
+                          <div class="card-body hh">
+                            <h5 class="card-title">{{i.event_name}} on {{i.event_date}}</h5>
+                            <hr>
+                            <p class="card-text">{{i.event_dis}}</p>
+                            <a href="{{i.event_link}}" class="btn btn-primary">Read more</a>
                           </div>
+                        </div>
+                      </div> 
+                      {% endfor %}
                       </div>
+                     
+                      
                   </div>
                   <!-- end card -->
               </div>
           </div>
+          <hr>
+          <div class="custom-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Exploring the Hidden Impact of Environmental Pollution"</h2>
+                    <p>Embark on a visual journey through the intricate world of environmental pollution with our enlightening animation. In this captivating video, we unveil the concealed consequences of pollution on our planet's air, water, soil, and wildlife. Discover how human activities and industries contribute to this global challenge and witness the far-reaching effects that ripple through ecosystems. Join us in raising awareness and understanding the urgent need for sustainable solutions to ensure a cleaner, healthier future for generations to come. Don't miss this enlightening exploration – watch now!</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/JaSe85Mcwp0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
       <div>
-    </div>  
-    <!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-    window.__be = window.__be || {};
-    window.__be.id = "64d0f9b9d01f120007af4c8e";
-    (function() {
-        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-    })();
-</script>
-<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
-<!-- End of ChatBot code -->
-  <?php load_temp("footer.php"); ?>
+    </div> 
+    <script type="text/javascript">
+      window.__be = window.__be || {};
+      window.__be.id = "64d0f9b9d01f120007af4c8e";
+      (function() {
+          var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+          be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+      })();
+  </script>
+  <noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript> 
+    {% include "footer.php"%}
 </body>
 </html>

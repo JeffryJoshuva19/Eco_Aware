@@ -20,3 +20,10 @@ $(document).ready(function() {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    var video = document.getElementById("autoplayVideo");
+    
+    // Play the video when the page is loaded
+    video.play();
+});
+
