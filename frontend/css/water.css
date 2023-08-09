@@ -13,7 +13,9 @@
     position: relative;
   }
   
-
+  .col-md-6 g{
+    text-align: justify;
+  }
   .card1 img {
     width: 100%;
     height: 400px;
@@ -57,11 +59,11 @@
     text-align: center;
     padding: 40px 20px;
     margin-top: 0px;
-    background-color: rgb(220, 244, 253);
+    background-color: white;
   }
   
   .box h3 {
-    color: rgb(4, 126, 197);
+    color: darkblue;
     font-size: 30px;
     padding: 10px 0;
   }
@@ -78,7 +80,7 @@
     margin-top: 0px;
     padding: 20px;
     margin-bottom: 10px;
-    background-color: aliceblue;
+    background-color: white;
   }
   
   .card {
@@ -102,6 +104,8 @@
   }
   .card p {
     font-size: 16px;
+    justify-content: center;
+    text-align: justify;
   }
   
   .image-text {
@@ -206,17 +210,32 @@ hr {
 
 .cards-container1 p{
   color: black;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
 }
 
 
+@media (max-width: 768px) {
+  .card4 {
+    min-width: auto;
+    max-width: 100%;
+  }
 
-
+  .card4 .logo img {
+    max-width: 50%; /* You can adjust this value as needed */
+    height: auto;
+  }
+}
 
 .cards-container4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: white;
+  background-color: rgb(216, 230, 235);
   
 }
 
@@ -226,6 +245,7 @@ hr {
   border-radius: 10px;
   margin-bottom: 20px;
   box-sizing: border-box;
+  text-align: justify;
 }
 
 .card4 h2 {
@@ -237,6 +257,7 @@ hr {
 .card4 p {
   font-size: 16px;
   line-height: 1.5;
+  
 }
 
 .logo img{
@@ -301,4 +322,42 @@ hr {
 .donate-content .btn:hover {
   background-color: #333333;
   color: #ffffff;
+}
+
+.content {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.content h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: white;
+}
+.content p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: white;
+}
+
+.cards-container5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  background-image: url('../resource/vaigai.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo3 {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.logo3 img {
+  max-width: 100%;
+  height: auto;
 }

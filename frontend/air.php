@@ -16,7 +16,7 @@ include "libs/load.php";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="css/water.css" rel="stylesheet">
+    <link href="css/air.css" rel="stylesheet">
     <script src="js/water.js"></script>
   </head>
 </head>
@@ -25,7 +25,7 @@ include "libs/load.php";
     <?php load_temp("header1.php"); ?>
     <div class="container">
     <div class="card1">
-            <img src="resource/pexels-pixabay-60575.jpg" class="test">
+            <img src="resource/widepollution.jpg" class="test">
             <div class="overlay-text">
     <h2>How to improve <br> air quality?</h2>
     <p>Additional information about <br> water quality improvement <br> can go here.</p>
@@ -36,7 +36,7 @@ include "libs/load.php";
         <div class="box">
           
          <h3> <i class="bi bi-droplet"></i>Air <br> Today we can!</h3>
-          <p>Water pollution is one the main environmental <br> issues that we are facing, as more than 70% of  <br>the Earth’s surface is water-covered.</p>
+          <p>"Save our Madurai, Stop polluting the atmosphere<br> Breathe healthy and be healthy."</p>
     </div>
     
     <div class="cards-container">
@@ -50,35 +50,37 @@ include "libs/load.php";
              
           </div>
           
-          <p class="col-md-6 g">Water pollution can be defined as the contamination of a stream, river, lake, ocean or any other stretch of water, depleting water quality and making it toxic for the environment and humans.<p>
+          <p class="col-md-6 g">Air pollution can be defined as the presence of toxic chemicals or compounds (including those of biological origin) in the air, at levels that pose a health risk.<p>
         </div>
     
   </div>
-  <div class="cards-container1">
-    <h1>Causes of   water pollution?</h1>
-    <p>What are the sources of water pollution? Unsurprisingly, human activity is primarily responsible for water pollution, even if natural phenomenon - such as landslides and floods - can also contribute to degrade the water quality.</p>
+  <div class="cards-container">
+    <h1>Causes of air pollution?</h1>
 </div>
-  
+  <div class="cards-container">
+  <p>Air pollution is caused by solid and liquid particles and certain gases that are suspended in the air. These particles and gases can come from car and truck exhaust, factories, dust, pollen, mold spores, volcanoes and wildfires. The solid and liquid particles suspended in our air are called aerosols.</p>
+
+  </div>
   <div class="cards-container">
 
     <div class="card">
-    <img src="resource/sewage.jpg" alt="">
-      <h3>SEWAGE AND WASTEWATER</h3>
-      <p>Inadequate sewage collection and treatment are sources of water pollution. According to the United Nations, more than 80% of the worldwide wastewater goes back in the environment without being treated or reused.</p>
+    <img src="resource/car.jpeg" alt="">
+      <h3>Automobiles</h3>
+      <p>The gases emitted from vehicles such as jeeps, trucks, cars, buses, etc. pollute the environment. These are the major sources of greenhouse gases and also result in diseases among individuals.</p>
             <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
-      <img src="resource/deforest.jpg" alt="">
-      <h3>URBANIZATION AND DEFORESTATION</h3>
-      <p>Even though it does not have a direct impact on water quality, urbanization and deforestation have a lot of indirect effects. For instance, cutting down trees and concreting over large areas generates an acceleration of flows which does not give enough time for water to infiltrate and be purified by the ground.</p>
+      <img src="resource/smokestacks.jpg" alt="">
+      <h3>Factories and Industries</h3>
+      <p>Factories and industries are the main source of carbon monoxide, organic compounds, hydrocarbons and chemicals. These are released into the air, degrading its quality.</p>
             <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
-      <img src="resource/agriculture.jpg" alt="">
-      <h3>AGRICULTURE</h3>
-      <p>Agriculture has an impact on water pollution due to the use of chemicals such as fertilizers, pesticides, fungicides, herbicides or insecticides running off in the water, as well as livestock excrement, manure and methane (greenhouse effect). Regarding aquaculture, pollution is directly in the water, as excess food and fertilizers are causing dystrophication. </p>
+      <img src="resource/amonia.jpg" alt="">
+      <h3>Agricultural Activities</h3>
+      <p>Ammonia is one of the most hazardous gases emitted during agricultural activities. The insecticides, pesticides and fertilisers emit harmful chemicals in the atmosphere and contaminate it.</p>
             <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
@@ -87,25 +89,25 @@ include "libs/load.php";
   <div class="cards-container">
     
     <div class="card">
-      <img src="resource/industry.jpg" alt="">
-      <h3>INDUSTRIES</h3>
-      <p>Industries produce a lot of waste containing toxic chemicals and pollutants. A huge amount of the industrial waste is drained in the fresh water which then flows into canals, rivers and eventually in the sea. Another source of water pollution is the burning of fossil fuels, causing air pollution like acid rain which then flows to streams, lakes, and other stretches of water.</p>
+      <img src="resource/paint.jpeg" alt="">
+      <h3>Domestic Sources</h3>
+      <p>The household cleaning products and paints contain toxic chemicals that are released in the air. The smell from the newly painted walls is the smell of the chemicals present in the paints. It not only pollutes the air but also affects breathing.</p>
             <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
       
-      <img src="resource/dumping.jpg" alt="">
-      <h3>MARINE DUMPING</h3>
-      <p>Everyday, garbage such as plastic, paper, aluminum, food, glass, or rubber are deposited into the sea. These items take weeks to hundreds of years to decompose, and thus they are a major cause for water pollution.</p>
+      <img src="resource/coal.jpg" alt="">
+      <h3>Burning of Fossil Fuels</h3>
+      <p>The combustion of fossil fuels emits a large amount of sulphur dioxide. Carbon monoxide released by incomplete combustion of fossil fuels also results in air pollution.</p>
             <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
     <div class="card">
       
-      <img src="resource/radioactive.jpg" alt="">
-      <h3>RADIOACTIVE WASTE</h3>
-      <p>Generated - among others - by power plants and uranium mining, radioactive waste can linger in the environment for thousands of years. When these substances are released accidentally or disposed improperly, they threaten groundwater, surface water, as well as marine resources.</p>
+      <img src="resource/mines.jpg" alt="">
+      <h3>Mining Activities</h3>
+      <p>In the mining process, the minerals below the earth are extracted using large pieces of equipment. The dust and chemicals released during the process not only pollute the air, but also deteriorate the health of the workers and people living in the nearby areas</p>
             <a href="aircontrol.php" class="arrow-link">&#10148;</a>
 
     </div>
@@ -115,51 +117,50 @@ include "libs/load.php";
   
 </div>
 <div class="cards-container1">
-    <h1>Water pollution prevention</h1>
-     <p>How to solve water pollution? How can water pollution be prevented? Here’s a list of water pollution</p>
+    <h1>Best Ways to Reduce Air Pollution</h1>
 </div>
 <div class="cards-container4">
   <div class="card4">
     <div class="logo">
-    <img src="resource/icon1.png" alt="">
+    <img src="resource/bus.png" alt="">
     </div>
-    <h2>1. Wastewater treatment</h2>
-    <p>Wastewater treatment consists of removing pollutants from wastewater through a physical, chemical or biological process. The more efficient these processes are, the cleaner the water becomes.</p>
+    <h2>1. Using public transports</h2>
+    <p>Using public transport is a sure short way of contributing to less air pollution as it provides with less gas and energy, even carpools contribute to it. In addition to less release of fuels and gas, using a public transport can also help in saving money. Lesser vehicles on roads will contribute to lesser emissions.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon2.png" alt="">
+  <img src="resource/turned-off.png" alt="">
   </div>
-    <h2>2. Green agriculture</h2>
-    <p>Globally, agriculture accounts for 70% of water resources, so it is essential to have climate-friendly crops, efficient irrigation that reduces the need for water and energy-efficient food production. Green agriculture is also crucial to limit the chemicals that enter the water.</p>
-  </div>
-  <div class="card4">
-  <div class="logo">
-  <img src="resource/icon3.png" alt="">
-  </div>
-    <h2>3. Stormwater management</h2>
-    <p>Stormwater management is the effort to reduce runoff of rainwater or melted snow into streets, lawns and other sites and the improvement of water quality” according to the US Environmental Protection Agency (EPA). It is important to avoid pollutants from contaminating the water and helps to use water more efficiently.</p>
+    <h2>2. Turn off the lights when not in use</h2>
+    <p>The energy that the lights take also contribute to air pollution, thus less consumption of electricity can save energy. Use energy saving fluorescent lights to help the environment.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon4.png" alt="">
+  <img src="resource/fire.png" alt="">
   </div>
-    <h2>4. Air pollution prevention</h2>
-    <p>Air pollution has a direct impact on water contamination as 25% of human induced CO2 emissions are absorbed by oceans. This pollution causes a rapid acidification of our oceans, and threatens marine life and corals. Preventing air pollution is the best way to prevent this from happening.</p>
-  </div>
-  <div class="card4">
-  <div class="logo">
-  <img src="resource/icon5.png" alt="">
-  </div>
-    <h2>5. Plastic waste reduction</h2>
-    <p>80% of plastic in our oceans is from land sources. In order to reduce the amount of plastic entering our ocean, we need to both reduce our use of plastic globally, and to improve plastic waste management.</p>
+    <h2>3. Reduction of fires and smoking</h2>
+    <p>The collecting of garbage and getting it on fire in dry seasons or dry leaves catching fires is a huge factor for causing air pollution, moreover smoking also causes air pollution and causes the air quality to worsen along with obviously damaging one’s health.</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/icon6.png" alt="">
+  <img src="resource/fire-cracker.png" alt="">
   </div>
-    <h2>6. Water conservation</h2>
-    <p>Without water conservation, we won’t go very far. It is central in making sure the world has better access to clean water. It means being aware that water is a scarce resource, taking care of it accordingly, and managing it responsibly.</p>
+    <h2>4. Avoid usage of crackers</h2>
+    <p>The use of crackers during festivals and weddings is sadly one of the biggest contributors to air pollution, leading to a layer of smog which is extremely harmful for health. So, practice of no crackers should be implemented.</p>
+  </div>
+  <div class="card4">
+  <div class="logo">
+  <img src="resource/cleaning-products.png" alt="">
+  </div>
+    <h2>5. Avoid using of products with chemicals</h2>
+    <p>Products that use the chemicals in their usage or smell strongly, like paints or perfumes should be used less or outside the house. There can also be an alternative to use products with low chemical content and organic properties.</p>
+  </div>
+  <div class="card4">
+  <div class="logo">
+  <img src="resource/fan.png" alt="">
+  </div>
+    <h2>6. Use of fans instead of Air Conditioner</h2>
+    <p>The usage of AC’s takes a lot of energy and emits a lot of heat which is bad for the environment. AC’s also take a lot of power and energy to work as compared to fans.</p>
   </div>
 </div>
 <div class="box-container">
