@@ -5,28 +5,29 @@ include "libs/load.php";
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
-    <script src="vendor/assets/js/color-modes.js"></script>
+    <script src="frontend/vendor/assets/js/color-modes.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="Hugo 0.112.5">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link href="vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="frontend/vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href="css/waste.css" rel="stylesheet">
-    <script src="js/home.js"></script>
+    <link href="frontend/css/waste.css" rel="stylesheet">
+    <script src="frontend/js/home.js"></script>
   </head>
 </head>
 
 <body>
     <?php load_temp("header.php"); ?>
+    {% include "header1.php"%}
     <div class="container">
         <!-- <div class="card card1">
-            <img src="resource/dust.jpg" class="test">
+            <img src="frontend/resource/dust.jpg" class="test">
         </div>
         <div class="card card2">
             <div class="row row1">
@@ -34,13 +35,13 @@ include "libs/load.php";
                         <div id="carouselExampleInterval" class="carousel slide col1" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="resource/bio.jpg" class="d-block w-100" alt="...">
+                            <img src="frontend/resource/bio.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                            <img src="resource/non.jpg" class="d-block w-100" alt="...">
+                            <img src="frontend/resource/non.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="resource/recycle.jpg" class="d-block w-100" alt="...">
+                            <img src="frontend/resource/recycle.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -67,13 +68,13 @@ include "libs/load.php";
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="resource/waste1.jpg" class="d-block w-100" alt="..." style="height:100%" >
+      <img src="frontend/resource/waste1.jpg" class="d-block w-100" alt="..." style="height:100%" >
     </div>
     <div class="carousel-item">
-      <img src="resource/waste2.jpg" class="d-block w-100" alt="..." style="height:100%">
+      <img src="frontend/resource/waste2.jpg" class="d-block w-100" alt="..." style="height:100%">
     </div>
     <div class="carousel-item">
-      <img src="resource/w1.jpg" class="d-block w-100" alt="..." style="height:100%">
+      <img src="frontend/resource/w1.jpg" class="d-block w-100" alt="..." style="height:100%">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -92,7 +93,7 @@ include "libs/load.php";
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
-                        <img src="resource/waste4.jpg" alt="" class="img-fluid">
+                        <img src="frontend/resource/waste4.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
@@ -241,6 +242,7 @@ include "libs/load.php";
         
 
     </div>
+    {% include "footer.php"%}
     <?php load_temp("footer.php"); ?>
 
 </body>

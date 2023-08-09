@@ -17,13 +17,14 @@ include "libs/load.php";
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
       <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-      <link href="css/home.css" rel="stylesheet">
-      <script src="js/home.js"></script>
+      <link href="frontend/css/activity.css" rel="stylesheet">
+      <script src="frontend/js/activity.js"></script>
     </head>
 </head>
 
 <body>
-  <header><?php load_temp("header1.php"); ?></header>
+  <?php load_temp("header1.php"); ?>
+  {% include "header1.php"%}
   <div class="container"style="background-color: #D8D9DA;border-radius: 20px;">
 
     <div class="row row-gx-2"style="color:">
@@ -75,7 +76,7 @@ include "libs/load.php";
       <div class="col">
         <div class="p-2 border bg-light">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="frontend/resource/after.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <p class="card-text" style="font-size: 12px;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="card-link">Card link</a>
@@ -206,110 +207,8 @@ include "libs/load.php";
       </div>
     </div>
   </div>
-  <footer><?php load_temp("footer.php"); ?></footer>
+  <?php load_temp("footer.php"); ?>
+  {% include "footer.php"%}
 </body>
 </html>
-<!-- <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
 
-    .heade {
-      background-color: #4CAF50;
-      padding: 20px;
-      color: #fff;
-      text-align: center;
-    }
-
-    .containe {
-      max-width: 800px;
-      margin: 20px auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .activity-title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .activity-description {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 20px;
-    }
-
-    .activity-item {
-      display: flex;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-
-    .activity-icon {
-      font-size: 24px;
-      color: #4CAF50;
-      margin-right: 10px;
-    }
-
-    .activity-item-text {
-      font-size: 18px;
-      color: #333;
-    }
-
-    .action-btn {
-      background-color: #4CAF50;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-  </style> -->
-  <style>
-
-.news-feed {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-
-h2 {
-  margin: 0;
-}
-
-p {
-  margin: 5px 0;
-}
-
-</style>
-<!-- <script>
-  // If you want to dynamically add more news feeds through JavaScript, you can use the following approach:
-
-const container = document.querySelector('.container');
-
-function addNewsFeed(title, content) {
-  const newsFeed = document.createElement('div');
-  newsFeed.classList.add('news-feed');
-  
-  const titleElement = document.createElement('h2');
-  titleElement.textContent = title;
-  
-  const contentElement = document.createElement('p');
-  contentElement.textContent = content;
-  
-  newsFeed.appendChild(titleElement);
-  newsFeed.appendChild(contentElement);
-  container.appendChild(newsFeed);
-}
-
-
-
-</script> -->
