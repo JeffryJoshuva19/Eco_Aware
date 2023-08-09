@@ -1,0 +1,113 @@
+body {
+   font-family: ;
+   line-height: 1.6;
+   margin: 0;
+   padding: 0;
+ }
+
+.containe {
+   width:95%;
+   justify-content: space-around;
+   margin-right:auto;
+   margin-left:auto;
+   padding: 20px;
+   border-width: 50px;
+   border-radius: 10px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax values as needed */
+   gap: 150px;
+   
+}
+
+.colum {
+   
+   text-align: center;
+   padding: 20px;
+   background-color: #e8f3e9;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+   margin-top: 0;
+   font-size: 1.2em;
+   color: #0b140b;
+   font-family: 'Koh Santepheap'; 
+}
+
+.numbe {
+   font-size: 2.5em;
+   color: #0b140b;
+}
+
+.percentag {
+   font-size: 2.5em;
+   color: #0b140b;
+}
+.test{
+   background-image: url("../resource/after.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 10px;
+   background-color:#e8f3e9;
+
+}
+.bkt{
+   margin-top: 50px; 
+}
+.donate{
+  background-color: #2e5631;
+  color:#fff;
+
+}
+.donate:hover{
+  background-color: #569f5b;
+  color:#fff;
+
+}
+   body {
+    font-size: 20px;
+    font-family: 'Caladea';
+    color : #0b140b;
+}
+.donation-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.2);
+    
+  }
+
+main {
+  padding: 2rem;
+}
+
+.donation-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(232, 243, 233,0.8) ;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 26px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input,select {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #d7ead8;
+  color:#d7ead8;
+}

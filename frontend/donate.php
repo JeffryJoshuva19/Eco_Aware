@@ -18,22 +18,21 @@ include "libs/load.php";
     <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
     <link href="css/home.css" rel="stylesheet">
     <script src="js/home.js"></script>
-    <link rel="stylesheet" href="pay.css">
+    <link rel="stylesheet" href="../frontend/css/donate.css">
 
     
 </head>
   <body>
-    
     <?php load_temp("header1.php"); ?>
-          <div class="container test">
+          <div class="container test" >
                 <div class="row">
                    
-                  <div class="col bkt" style="">
+                  <div class="col bkt">
                       <!-- <h1>Donate to Green Madurai</h1> -->
-                        <section class="donation-form">
-                          <h2>Donation</h2>
+                        <section class="donation-form" >
+                          <h2 style="">DONATION</h2>
                           <form>
-                            <label for="categories" class="form-label">You are helping</label>
+                            <label for="categories" class="form-label" ">You are helping</label>
                             <select id="categories" name="categories" class="form-select" required>
                               <option value="" disabled selected></option>
                               <option value="Trees">Trees</option>
@@ -42,8 +41,8 @@ include "libs/load.php";
                               <option value="Others">Others</option>
                               <!-- Add more currency options as needed -->
                             </select>
-                            <label for="name" class="form-label">Your Name</label>
-                            <div class="input-group">
+                            <label for="name" class="form-label" >Your Name</label>
+                            <div class="input-group" >
                               <div class="input-group-prepend">
                               <select id="categories" name="categories" class="form-select" required>
                                 <option value="" disabled selected></option>
@@ -54,7 +53,7 @@ include "libs/load.php";
                               </div>
                               <input type="text" id="name" name="name" class="form-control" required>
                             </div>
-                            <label for="amount" class="form-label">Amount:</label>
+                            <label for="amount" class="form-label" >Amount</label>
                             <div class="input-group">
                               <div class="input-group-prepend">
                                 <span class="input-group-text ">Rs.</span>
@@ -64,13 +63,13 @@ include "libs/load.php";
                                 <span class="input-group-text">.00</span>
                               </div>
                             </div>
-                            <a href="cashpay.php" class="btn btn-success">Donate Now
+                            <a href="cashpay.php" class="btn donate" >Donate Now
                             </a>
                           </form>  
                         </section>
                   </div> 
                 </div>
-                <div class="row" style="">
+                <div class="row">
                     
                       
                         <div class=" containe">
@@ -80,7 +79,7 @@ include "libs/load.php";
                                 <p class="numbe">5000</p>
                             </div>
                             <div class="colum">
-                                <h2>Number of Contributions</h2>
+                                <h2>Amount of Contributions</h2>
                                 <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 48 60" stroke-width="0.7" stroke="#04471cff" width="100" height="100" fill="#058c42ff" x="0px" y="0px"><title>cash</title><path d="M23.71,10.53,21.66,9l3-1.47,5-2.4a2,2,0,0,1,1.57,0l5,2.4,6.52,3.16,5,2.41c.43.21.43.55,0,.76l-5,2.41L36,19.55,34,18l6.51-3.15a1.93,1.93,0,0,1,0-2.75L33.28,8.65a14.67,14.67,0,0,1-5.68,0Zm1.18,11.9L20.4,24.61a14.67,14.67,0,0,0-5.68,0L7.53,21.12a1.93,1.93,0,0,0,0-2.75l7.12-3.45-2-1.5L5.29,17l-5,2.41c-.43.21-.43.55,0,.76l5,2.41,6.52,3.16,5,2.4a2,2,0,0,0,1.57,0l5-2.4L26.93,24v0Zm17.82-1.22,5-2.41c.43-.2.43-.55,0-.75l-2-1L36,21.75l-.09,2.77ZM19.23,29.86a3.82,3.82,0,0,1-1.67.36,3.92,3.92,0,0,1-1.66-.35L2.35,23.3l-2,1c-.43.21-.43.56,0,.76l5,2.41,6.52,3.16,5,2.4a2,2,0,0,0,1.57,0l5-2.4,3.63-1.76V26.13Zm0,4.92a4,4,0,0,1-3.33,0L2.35,28.21l-2,1c-.43.2-.43.55,0,.76l5,2.4,6.52,3.17,5,2.39a2,2,0,0,0,1.57,0l5-2.39L27,33.76V31Zm23.48-8.66,5-2.41c.43-.2.43-.55,0-.75l-2-1-9.84,4.76-.09,2.77Zm0,4.92,5-2.41c.43-.21.43-.55,0-.76l-2-1-10,4.84-.09,2.77ZM19.23,39.69a4,4,0,0,1-3.33,0L2.35,33.13l-2,1c-.43.21-.43.55,0,.76l5,2.41,6.52,3.16,5,2.4a2,2,0,0,0,1.57,0l5-2.4L27,38.67V36ZM34,20.53,19.65,10l-5,2.44,14.32,10.5L29,37.7l4.57-2.22Z"/></svg>
                                 <p class="numbe">1200</p>
                             </div>
@@ -95,67 +94,3 @@ include "libs/load.php";
         <?php load_temp("footer.php"); ?>
   </body> 
 </html>
-<style>
-   body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-button[type="submit"]:hover {
-    background-color: #0d2818ff;
-  }
-.donation-form {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 15px 25px rgba(255, 255, 255, 0.2);
-    
-  }
-  button[type="submit"] {
-      background-color: #16db65ff;
-    }
-  button:hover {
-    background-color: #0d2818ff;
-  }
-main {
-  padding: 2rem;
-}
-
-.donation-form {
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-h2 {
-  margin-bottom: 1rem;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin-bottom: 0.5rem;
-}
-
-input,
-select {
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  padding: 0.75rem 1rem;
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-</style>
-    </div>
-</body>
