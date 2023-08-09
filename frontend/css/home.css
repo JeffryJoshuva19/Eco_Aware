@@ -17,6 +17,12 @@
     height: 80%;
 }
 .adj1{
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 550px;
     height: 300px;
     margin-top: 2%;
@@ -24,9 +30,10 @@
     border-color: rgb(0, 0, 0);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease; 
-    background-image: url('../resource/new1.jpg');
+    background-image: url('/frontend/resource/new1.jpg');
     background-size: cover;
     animation: floating 3s infinite ease-in-out;
+  
 }
 .adj2{
     width: 550px;
@@ -36,7 +43,7 @@
     border-color: rgb(0, 0, 0);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease; 
-    background-image: url('../resource/new2.jpg');
+    background-image: url('/frontend/resource/new2.jpg');
     background-size: cover;
     animation: floating 3s infinite ease-in-out;
 }
@@ -145,12 +152,45 @@ p{
         opacity: 1;
     }
 }
+.hh{
+    height: 200px;
+}
+.ecard{
+    background: rgba( 108, 255, 0, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    animation: floating 3s infinite ease-in-out;
+   
+   
 
-
-
-
-
-
-
-
+}
+.clrr{
+    color: crimson;
+}
+.custom-container {
+    padding: 20px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.adjt{
+    text-align: center;
+    
+    
+}
+p{
+    text-align: justify;
+}
 
