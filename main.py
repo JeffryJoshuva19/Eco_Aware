@@ -263,11 +263,13 @@ def get_plant(request:Request,db:Session=Depends(get_db)):
 
 @app.get('/get_contact')
 def get_plant(request:Request,db:Session=Depends(get_db)):
-    return templates.TemplateResponse("contact.php", context={"request": request})
+    cont=db.query(model.Contact).filter(model.Contact.status=="ACTIVE").all()
+    return templates.TemplateResponse("contact.php", context={"request": request,"data":cont})
 
 @app.get('/get_activity')
 def get_plant(request:Request,db:Session=Depends(get_db)):
-    return templates.TemplateResponse("activity.php", context={"request": request})
+    act=db.query(model.News).filter(model.News.status=="ACTIVE").all()
+    return templates.TemplateResponse("activity.php", context={"request": request,"data":act})
 @app.get('/get_air')
 def get_plant(request:Request,db:Session=Depends(get_db)):
     return templates.TemplateResponse("air.php", context={"request": request})
@@ -275,3 +277,7 @@ def get_plant(request:Request,db:Session=Depends(get_db)):
 @app.get('/get_airsteps')
 def get_plant(request:Request,db:Session=Depends(get_db)):
     return templates.TemplateResponse("airsteps.php", context={"request": request})
+
+@app.get('/get_donate')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("donate.php", context={"request": request})

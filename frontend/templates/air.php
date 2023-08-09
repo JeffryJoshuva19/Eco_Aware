@@ -56,7 +56,7 @@ include "libs/load.php";
         </div>
     
   </div>
-  <div class="cards-container">
+  <div class="cards-container1">
     <h1>Causes of air pollution?</h1>
 </div>
 

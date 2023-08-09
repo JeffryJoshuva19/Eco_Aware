@@ -52,7 +52,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 1: Dig the planting hole.</div>
         <div class="accordion-content">
-          <h2>Clean and disinfect gardening tools and containers</h2>
+          <h2>Dig the planting hole</h2>
           <ul>
             <li>First, remove the tree container from the container and measure the root ball (the mass of soil and roots that comes out of the container) with the handle of your shovel to estimate the depth to dig.</li>
             <li>Dig the hole as deep as, and 2-3 times as wide as the root ball.</li>
@@ -67,7 +67,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 2: Massage/loosen/trim the roots and remove the nursery stake.</div>
         <div class="accordion-content">
-        <h2>Composting, fertilizing and weeding</h2>
+        <h2>Massage/loosen/trim the roots and remove the nursery stake</h2>
           <ul>
             <li>We have found that this step is key to robust tree performance. </li>
             <li>Roots should ideally radiate out straight from the center of the root ball.</li>
@@ -82,7 +82,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 3: Place the tree in the center of the hole.</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Place the tree in the center of the hole</h2>
           <ul>
             <li>The tree has only one chance to be planted properly so make sure the depth and position is correct before filling in the soil.</li>
             <li>The root flare should lie above the surface.</li>
@@ -100,7 +100,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 4: Build a soil berm.</div>
         <div class="accordion-content">
-        <h2>Composting, fertilizing and weeding</h2>
+        <h2>Build a soil berm</h2>
           <ul>
             <li>A soil berm is a mound encircling the tree, 10-12 inches from the trunk, which creates a basin or bowl that will hold approximately 10 gallons of water.</li>
             <li> The inside of the berm should be at the outer edge of the root ball. Keeping the root ball moist is essential until the tree is established.</li>
@@ -114,7 +114,7 @@ include "libs/load.php";
     <div class="accordion-item">
         <div class="accordion-heading">Step 5: Stake the tree.</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Stake the tree</h2>
           <ul>
             <li>Two ‘lodge pole’ stakes are used to help the young tree grow up straight until the roots are established.</li>
             <li>In parks and yards three stakes may be used to protect the tree from lawn mowers.</li>
@@ -133,7 +133,7 @@ include "libs/load.php";
         <div class="accordion-heading">Step 6: Tie the tree.</div>
         <div class="accordion-content">
           
-        <h2>Harvesting and storing</h2>
+        <h2>Tie the tree</h2>
           <ul>
             <li>Ties should be placed at the lowest point on the trunk where the tree can be held straight, generally about 4 feet from the ground.</li>
             <li>Hold the trunk at the level you plan to tie it; the tree should stand straight without leaning.</li>
@@ -148,7 +148,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 7: Water the tree thoroughly!</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Water the tree thoroughly</h2>
           <ul>
             <li>Fill the basin with water and reinforce the berm if needed.</li>
             <li>Continue watering (once a week when there has not been a soaking rain) until established.</li>
@@ -161,7 +161,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 8: Add Mulch.</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Add Mulch</h2>
           <ul>
             <li>Cover the soil 2-3 feet around the tree base with 3-5 inches of mulch (composed of wood chips, shredded bark or leaves) to retain moisture, suppress weeds and improve soil composition.</li>
             <li>Keep mulch 2-3 inches from the trunk and root flare of the tree to prevent insects and rodents from burrowing in the mulch and chewing on the bark.</li>
@@ -197,19 +197,19 @@ include "libs/load.php";
     <div class="main-container">
     
     <div class="logo-container">
-      <img src="resource/farmer.png" alt="Logo 1">
+      <img src="frontend/resource/farmer.png" alt="Logo 1">
       <p>Identification of beneficiary farmers</p>
     </div>
     <div class="logo-container">
-      <img src="resource/planting.png" alt="Logo 2">
+      <img src="frontend/resource/planting.png" alt="Logo 2">
       <p>Procurement of saplings</p>
     </div>
     <div class="logo-container">
-      <img src="resource/computer.png" alt="Logo 3">
+      <img src="frontend/resource/computer.png" alt="Logo 3">
       <p>Post plantation interventions and monitoring</p>
     </div>
     <div class="logo-container">
-      <img src="resource/deforestation.png" alt="Logo 4">
+      <img src="frontend/resource/deforestation.png" alt="Logo 4">
       <p>hazardous tree removal.</p>
     </div>
   </div>
@@ -218,7 +218,7 @@ include "libs/load.php";
 
   <div class="card4">
     <div class="logo">
-    <img src="resource/volunteer.png" alt="">
+    <img src="frontend/resource/volunteer.png" alt="">
     </div>
     <h2>Volunteers</h2>
     <p>We believe bringing positive change in madurai is not a single handed process. It  be supported by the 'Power Of People’ And the Power of people must be led by 'Power of Unity’ with a good deed.<a href="contact.php">contact us</a></p>
@@ -226,20 +226,20 @@ include "libs/load.php";
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/corporates.png" alt="">
+  <img src="frontend/resource/corporates.png" alt="">
   </div>
     <h2>corporates</h2>
     <p>We enable CSR activities, which are the responsibility as well as an opportunity for corporates to impact social, environmental and economic dimensions. Thereby create a more sustainable earth and better world for humanity</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/communities.png" alt="">
+  <img src="frontend/resource/communities.png" alt="">
   </div>
     <h2>Communities</h2>
     <p>We invite you to come together with your community (school, college, housing societies etc.) for the betterment of the environment. It is a step towards creating a big change in society.</p>
   </div>
   </div>
-     </div>
+  </div>
     
   </div>
   {% include "footer.php"%}

@@ -30,121 +30,28 @@ include "libs/load.php";
             <h1>Contacts</h1>
         </div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {% for i in data%}
             <div class="col">
-                <div class="card card1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
-                    <img src="frontend/resource/nss.jpg" class="card-img-top test" alt="...">
+                <div class="card card1" data-bs-toggle="modal" data-bs-target="#exampleModal{{i.id}}" style="width: 18rem;">
+                    <img src="frontend/resource/upload_image/{{i.logo}}" class="card-img-top test" alt="...">
                 </div>
             </div>
-            <div class="col">
-                <div class="card card3" data-bs-toggle="modal" data-bs-target="#example1Modal" style="width: 18rem;">
-                        <img src="frontend/resource/ncc.jpg" class="card-img-top test" alt="...">
-                </div>
-            </div>  
-             <div class="col">
-                <div class="card card4" data-bs-toggle="modal" data-bs-target="#example2Modal" style="width: 18rem;">
-                        <img src="frontend/resource/rotary.jpg" class="card-img-top test" alt="...">
-                </div>
-            </div>
-            <div class="col">
-                <div class="card card5" data-bs-toggle="modal" data-bs-target="#example3Modal" style="width: 18rem;">
-                        <img src="frontend/resource/lions.jpg" class="card-img-top test" alt="...">
-                </div>
-            </div>  
-             <div class="col">
-                <div class="card card6" data-bs-toggle="modal" data-bs-target="#example4Modal" style="width: 18rem;">
-                            <img src="frontend/resource/eco.jpg" class="card-img-top test" alt="...">
+            <div class="modal" id="exampleModal{{i.id}}" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">NSS Contact</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>E-mail:{{i.email}}</p>
+                        <p>Phone no: {{i.phone_num}}</p>
+                    </div>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card card7" data-bs-toggle="modal" data-bs-target="#example5Modal" style="width: 18rem;">
-                            <img src="frontend/resource/red.jpg" class="card-img-top test" alt="...">
-                </div>
-            </div>  
-        </div>
-        <div class="modal" id="exampleModal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">NSS Contact</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>E-mail: nssmadurai@gmail.com</p>
-                    <p>Phone no: 7635279865</p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal" id="example1Modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">NCC Contact</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>E-mail: nccmadurai@gmail.com</p>
-                    <p>Phone no: 9189632522</p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal" id="example2Modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">RotaryClub Contact</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>E-mail: rotarymadurai@gmail.com</p>
-                    <p>Phone no: 5486133211</p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal" id="example3Modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">LionsClub Contact</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>E-mail: lionsclubmadurai@gmail.com</p>
-                    <p>Phone no: 7635459865</p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal" id="example4Modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">EcoClub Contact</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>E-mail: ecoclubmadurai@gmail.com</p>
-                    <p>Phone no: 2453656847</p>
-                </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal" id="example5Modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Youth Red Cross Contact</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>E-mail: youthredcrossmadurai@gmail.com</p>
-                    <p>Phone no: 8456127951</p>
-                </div>
-                </div>
-            </div>
-        </div>
+            {% endfor %}
+            
 
 
         
