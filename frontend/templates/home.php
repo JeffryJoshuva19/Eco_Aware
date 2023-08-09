@@ -135,8 +135,6 @@ include "libs/load.php";
                       </div> 
                       {% endfor %}
                       </div>
-                     
-                      
                   </div>
                   <!-- end card -->
               </div>
