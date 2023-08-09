@@ -24,12 +24,14 @@ include "libs/load.php";
 <body>
     <?php load_temp("header1.php"); ?>
     <div class="container">
-    <div class="card1">
-            <img src="resource/water2.jpg" class="test">
-            <div class="overlay-text">
-    <h2>How to improve <br> water quality?</h2>
-  </div>
-    </div>
+    <div class="container3 donate">
+      <div class="donate-background1">
+        <div class="donate-content2">
+          <h1>Support Our Cause</h1>
+          <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
+        </div>
+      </div>
+    </div> 
       <div class="box-container">
       
         <div class="box">
@@ -38,6 +40,7 @@ include "libs/load.php";
           <p>Think about solution of water pollution.<br> Polluting water is a sin, you are making your body dustbin.</p>
     </div>
     
+</div>
     <div class="cards-container">
     <div class="row">
            <h1>what is water pollution?</h1>
@@ -157,10 +160,16 @@ include "libs/load.php";
     <p>Without water conservation, we won’t go very far. It is central in making sure the world has better access to clean water. It means being aware that water is a scarce resource, taking care of it accordingly, and managing it responsibly.</p>
   </div>
 </div>
-<div class="cards-container1">
-    <h1>What you can do now</h1>
-    <p></p>
-</div>
+
+<div class="content-container3">
+    <a class="logo3" href="watersteps.php">
+      <img src="resource/snap1.png" alt="Logo">
+</a>
+    <div class="text-content3">
+      <h1>How can you make it</h1>
+      <p>click on the logo so that you may get some tips to make some contribution to madurai</p>
+    </div>
+  </div>
 <div class="container1 donate">
       <div class="donate-background">
         <div class="donate-content">
@@ -170,6 +179,18 @@ include "libs/load.php";
         </div>
       </div>
     </div>
+    <!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "64d0f9b9d01f120007af4c8e";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+<!-- End of ChatBot code -->
   <?php load_temp("footer.php"); ?>
 
 </body>
