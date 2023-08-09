@@ -30,7 +30,7 @@ include "libs/load.php";
         </div>
       </div>
     </div> 
-   
+
     <div class="content-container3">
     <div class="logo3">
       <img src="resource/gardening.png" alt="Logo">
@@ -42,7 +42,9 @@ include "libs/load.php";
   </div>
         <hr>
         <div class="container1">
-          <h1>8 simple steps to planting a tree</h1>
+          
+        <h1>8 simple steps for planting a tree</h1>
+          
           <br>
     
     <div class="accordion">
@@ -171,8 +173,8 @@ include "libs/load.php";
     </div>
     <div class="container2">
     <div class="content2">
-      <h2>see how to plant a tree</h2>
-      <p>you canwatch this video to get clear idea about planting a tree</p>
+      <h2>See how to plant a tree</h2>
+      <p>you can watch this video to get clear idea about planting a tree</p>
     </div>
     <div class="video2">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SJfpnGEMrKM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
@@ -180,10 +182,10 @@ include "libs/load.php";
   </div>
     <div class="container3 donate">
       <div class="donate-background1">
-        <div class="donate-content1">
-          <h2>Support Our Cause</h2>
+        <div class="donate-content2">
+          <h1>Support Our Cause</h1>
           <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
-          <a href="payment.php" class="btn btn-light">Donate now</a>
+          <a href="donate.php" class="btn btn-light">Donate now</a>
 
         </div>
       </div>
@@ -202,7 +204,7 @@ include "libs/load.php";
       <p>Procurement of saplings</p>
     </div>
     <div class="logo-container">
-      <img src="resource/deforestation.png" alt="Logo 3">
+      <img src="resource/computer.png" alt="Logo 3">
       <p>Post plantation interventions and monitoring</p>
     </div>
     <div class="logo-container">
@@ -263,6 +265,18 @@ include "libs/load.php";
       });
     });
   </script>
+   <!-- Start of ChatBot (www.chatbot.com) code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "64d0f9b9d01f120007af4c8e";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+<!-- End of ChatBot code -->
     <?php load_temp("footer.php"); ?>
 
 </body>
