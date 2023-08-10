@@ -20,7 +20,7 @@ include "libs/load.php";
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" type="image/x-icon" href="frontend/resource/iconn.ico">
+    
     <link href="frontend/css/home.css" rel="stylesheet">
     <script src="frontend/js/home.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -66,7 +66,7 @@ include "libs/load.php";
              
           </div>
         
-          <p class="col-md-6 g content">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community.<p>
+          <p class="col-md-6 g content">Madurai's citizens can conveniently submit their complaints, ranging from civic issues to public services. By streamlining this process, we aim to enhance civic engagement, expedite issue resolution, and contribute to the overall betterment of our vibrant community.<p>
         </div>
         <hr>
         <h1 class="adjt">Donation</h1>
@@ -104,7 +104,7 @@ include "libs/load.php";
           </div>
           <div class="row content">
           <div class="col-md-5">
-            <p class="g1">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community  .<a href="payment.php" class="">Donate Now</a></p>
+            <p class="g1">By donating to green initiatives in Madurai, you'll play a crucial role in making the city cleaner, greener, and more eco-friendly, benefiting both the environment and the local community  .<a href="/get_donate" class="">Donate Now</a></p>
             
           </div>
           <div class="col-md-6 content">
@@ -155,16 +155,7 @@ include "libs/load.php";
         </div>
       <div>
     </div> 
-    <script type="text/javascript">
-      window.__be = window.__be || {};
-      window.__be.id = "64d0f9b9d01f120007af4c8e";
-      (function() {
-          var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-          be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-      })();
-  </script>
-  <noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript> 
+    {% include "bot.php"%}
     {% include "footer.php"%}
 </body>
 </html>

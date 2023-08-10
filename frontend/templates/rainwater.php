@@ -5,25 +5,26 @@ include "libs/load.php";
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
-    <script src="vendor/assets/js/color-modes.js"></script>
+    <script src="frontend/vendor/assets/js/color-modes.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="Hugo 0.112.5">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link href="vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="css/rainwater.css" rel="stylesheet">
-    <script src="js/water.js"></script>
+    <script src="frontend/vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="frontend/css/rainwater.css" rel="stylesheet">
+    <script src="frontend/js/water.js"></script>
   </head>
   <body>
     <?php load_temp("header1.php"); ?>
+    {%include "header1.php"%}
     <div class="container">
     <div class="card1 section-padding">
-            <img src="resource/rain1.jpg" class="test">
+            <img src="frontend/resource/rain1.jpg" class="test">
             <div class="overlay-text">
     <h2>Rain water <br>Harvesting</h2>
     <p>Collect the water from<br> rain to live <br>without pain.</p>
@@ -128,7 +129,7 @@ include "libs/load.php";
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
-                        <img src="resource/watercc.jpg" alt="" class="img-fluid">
+                        <img src="frontend/resource/watercc.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
@@ -163,17 +164,17 @@ include "libs/load.php";
 <div class="card sec">
   <br>
 <div class="row">
-  <div class="col">
+  <div class="col mb-4">
     <div class="card c1" data-bs-toggle="modal" data-bs-target="#example1Modal">
     <h5 class="text-center">Assessment and Planning</h5>
     </div>
   </div>
-  <div class="col">
+  <div class="col mb-4">
     <div class="card c1" data-bs-toggle="modal" data-bs-target="#example2Modal">
     <h5 class="text-center">Collection System Design</h5>
     </div>
   </div>
-  <div class="col">
+  <div class="col mb-4">
     <div class="card c1" data-bs-toggle="modal" data-bs-target="#example3Modal">
     <h5 class="text-center">Filtration and Treatment</h5>
     </div>
@@ -181,17 +182,17 @@ include "libs/load.php";
 </div>
 <br>
 <div class="row">
-  <div class="col">
+  <div class="col mb-4">
     <div class="card c1" data-bs-toggle="modal" data-bs-target="#example4Modal">
     <h5 class="text-center">Storage Infrastructure</h5>
     </div>
   </div>
-  <div class="col">
+  <div class="col mb-4">
     <div class="card c1" data-bs-toggle="modal" data-bs-target="#example5Modal">
     <h5 class="text-center">Distribution System</h5>
     </div>
   </div>
-  <div class="col">
+  <div class="col mb-4">
     <div class="card c1" data-bs-toggle="modal" data-bs-target="#example6Modal">
     <h5 class="text-center">Maintenance and Operation</h5>
     </div>
@@ -287,20 +288,10 @@ include "libs/load.php";
     </div>
   </div>
 </div>
-<!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-    window.__be = window.__be || {};
-    window.__be.id = "64d0f9b9d01f120007af4c8e";
-    (function() {
-        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-    })();
-</script>
-<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
-<!-- End of ChatBot code -->
 
 
 </div>
+     {%include "footer.php"%}
+     {% include "bot.php"%}
     <?php load_temp("footer.php"); ?>
 </body>

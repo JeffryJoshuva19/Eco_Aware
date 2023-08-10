@@ -1,7 +1,6 @@
 <?php
 include "libs/load.php";
 ?>
-<head>
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
@@ -18,9 +17,18 @@ include "libs/load.php";
     <script src="frontend/vendor/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="frontend/css/waste.css" rel="stylesheet">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+
+    
     <script src="frontend/js/home.js"></script>
+    <script>
+        function stopVideo() {
+            $('#bio').get(0).stopVideo();
+        }
+    </script>
   </head>
-</head>
+
 
 <body>
     <?php load_temp("header.php"); ?>
@@ -194,20 +202,23 @@ include "libs/load.php";
     </div>
     <hr>
     <div class="modal" id="exampleModal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
+        <!--<div id="Geeks2" class="modal fade">-->
+            <div class="modal-dialog modal-dialog-centered" id="bio1">
                 <div class="modal-content">
                 <div class="modal-header">
                     <!-- <h5 class="modal-title">NSS Contact</h5> -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="stopVideo()"></button>
                 </div>
                 <div class="modal-body">
                     <!-- <p>E-mail: nssmadurai@gmail.com</p>
                     <p>Phone no: 7635279865</p> -->
-                    <iframe id="bio" width="450" height="350" src="https://www.youtube.com/embed/unQlCp-lL6I" frameborder="0" allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" id="bio" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
+                    </div>                
                 </div>
                 </div>
             </div>
-        </div>
+    </div>
         <div class="modal" id="example1Modal" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -218,8 +229,9 @@ include "libs/load.php";
                 <div class="modal-body">
                     <!-- <p>E-mail: nssmadurai@gmail.com</p>
                     <p>Phone no: 7635279865</p> -->
-                    <iframe id="bio" width="450" height="350" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
-                </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
+                    </div>                </div>
                 </div>
             </div>
         </div>
@@ -233,15 +245,17 @@ include "libs/load.php";
                 <div class="modal-body">
                     <!-- <p>E-mail: nssmadurai@gmail.com</p>
                     <p>Phone no: 7635279865</p> -->
-                    <iframe id="bio" width="450" height="350" src="https://www.youtube.com/embed/1F3hm6MfR1k" frameborder="0" allowfullscreen></iframe>
-                </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
+                    </div>                
                 </div>
             </div>
         </div>
-    
+        <script src="https://www.youtube.com/iframe_api"></script>
         
 
     </div>
+    {% include "bot.php"%}
     {% include "footer.php"%}
     <?php load_temp("footer.php"); ?>
 

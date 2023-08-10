@@ -1,8 +1,10 @@
  <head>
+  <title>EcoAware</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="frontend/css/header.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="frontend/resource/iconn.ico">
 
     <script src="frontend/js/header.js"></script>
  </head>
@@ -16,7 +18,7 @@
             <div class="circular-image">
               <img src="frontend/resource/Logo.png" alt="logoImage">
             </div>
-            <span class="fs-4 coustom1">Green-Madurai</span>
+            <span class="fs-4 coustom1">Eco Aware</span>
           </a>
 
     
@@ -32,6 +34,8 @@
                   <a class="dropdown-item" href="/get_qdetails">Complaint details</a>
                   <a class="dropdown-item" href="/get_contact">social clubs</a>
                   <a class="dropdown-item" href="/get_achieve">Achieve</a>
+                  <a class="dropdown-item" href="/get_plant">Plant</a>
+                  <a class="dropdown-item" href="/get_policies">Policies</a>
                   <a class="dropdown-item" href="/get_activity">Activites</a>
 
               </div>

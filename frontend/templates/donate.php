@@ -62,7 +62,7 @@ include "libs/load.php";
                                 <span class="input-group-text">.00</span>
                               </div>
                             </div>
-                            <a href="cashpay.php" class="btn donate" >Donate Now
+                            <a href="/get_cashpay" class="btn donate" >Donate Now
                             </a>
                           </form>  
                         </section>

@@ -19,7 +19,9 @@
           <li class="nav-item mb-2"><a href="/get_contact" class="nav-link p-0 text-body-secondary">Social Clubs</a></li>
           <li class="nav-item mb-2"><a href="/get_achieve" class="nav-link p-0 text-body-secondary">Achieve</a></li>
           <li class="nav-item mb-2"><a href="/get_activity" class="nav-link p-0 text-body-secondary">Activites</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact us</a></li>
+          <li class="nav-item mb-2"><a href="/get_policies" class="nav-link p-0 text-body-secondary">Policies</a></li>
+          <li class="nav-item mb-2"><a href="/get_plant" class="nav-link p-0 text-body-secondary">Plant</a></li>
+
         </ul>
       </div>
       <div class="col-md-5 offset-md-1 mb-3">

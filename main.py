@@ -281,3 +281,19 @@ def get_plant(request:Request,db:Session=Depends(get_db)):
 @app.get('/get_donate')
 def get_plant(request:Request,db:Session=Depends(get_db)):
     return templates.TemplateResponse("donate.php", context={"request": request})
+
+@app.get('/get_achieve')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("achieve.php", context={"request": request})
+
+@app.get('/get_cashpay')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("cashpay.php", context={"request": request})
+
+@app.get('/get_policies')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("policy.php", context={"request": request})
+
+@app.get('/get_rainwater')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("rainwater.php", context={"request": request})
