@@ -28,8 +28,8 @@ include "libs/load.php";
     <div class="container3 donate">
       <div class="donate-background1">
         <div class="donate-content2">
-          <h1>Support Our Cause</h1>
-          <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
+          <h1>Water pollution</h1>
+          <p>Join us in exploring the water pollution and the solutions that can clean the water of madurai </p>
         </div>
       </div>
     </div> 
@@ -38,13 +38,13 @@ include "libs/load.php";
         <div class="box">
           
         <h3> <i class="bi bi-droplet"></i>Water <br> Today we can!</h3>
-          <p>Think about solution of water pollution.<br> Polluting water is a sin, you are making your body dustbin.</p>
+          <p>"Think about solution of water pollution.<br> Polluting water is a sin, you are making your body dustbin."</p>
     </div>
     
 </div>
     <div class="cards-container">
     <div class="row">
-           <h1>what is water pollution?</h1>
+           <h1 style="font-family:'Koh Santepheap'">what is water pollution?</h1>
            <hr>
           <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
             <!-- <img src="frontend/resource/imm1.jpg" class="card-img-top" alt="..."> -->
@@ -53,7 +53,7 @@ include "libs/load.php";
              
           </div>
           
-          <p class="col-md-6 g">Water pollution can be defined as the contamination of a stream, river, lake, ocean or any other stretch of water, depleting water quality and making it toxic for the environment and humans.<p>
+          <p class="col-md-6 g" style="font-family:'caladea'">Water pollution can be defined as the contamination of a stream, river, lake, ocean or any other stretch of water, depleting water quality and making it toxic for the environment and humans.<p>
         </div>
     
   </div>
@@ -168,6 +168,7 @@ include "libs/load.php";
 </a>
     <div class="text-content3">
       <h1>How can you make it</h1>
+      <h1 style="color:black;">Easy Ways to Reduce Water Pollution Now<h1>
       <p style="text-align:center;">click on the logo so that you may get some tips to make some contribution to madurai</p>
     </div>
   </div>
@@ -175,23 +176,12 @@ include "libs/load.php";
       <div class="donate-background">
         <div class="donate-content">
           <h2>Rainwater harvesting</h2>
-          <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
-          <a href="rainwater.php" class="btn btn-light">Read more</a>
+          <p>Collecting rainwater reduces surface runoff during heavy rainfall, which can help prevent flooding and erosion in urban and rural areas.</p>
+          <a href="/get_rainwater" class="btn btn-light">Read more</a>
         </div>
       </div>
     </div>
-    <!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-    window.__be = window.__be || {};
-    window.__be.id = "64d0f9b9d01f120007af4c8e";
-    (function() {
-        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-    })();
-</script>
-<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
-<!-- End of ChatBot code -->
+  {% include "bot.php"%}
 {% include "footer.php"%}
   <?php load_temp("footer.php"); ?>
 

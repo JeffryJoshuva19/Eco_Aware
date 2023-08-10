@@ -30,9 +30,8 @@ include "libs/load.php";
     <div class="row row-gx-2"style="color:">
       <div class="card p-2">
         <div class="card-body p-2">
-          <h1><div class="card-title">Title</div></h1>
-          <h3><div class="card-subtitle">Subtitle</div></h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, doloribus sunt. Illo, ea tenetur rem provident vero, unde laudantium, molestias voluptatem doloremque aperiam inventore fuga? Minus eaque nesciunt unde. Dolores!
+          <h1><div class="card-title">Environmental Endeavors: Nurturing Nature through Activities</div></h1>
+          <h3><div class="card-subtitle">A Chronicle of Conservation, Restoration, and Sustainability Efforts</div></h3>
         </div>
       </div>
       <!-- qwerty -->
@@ -210,6 +209,7 @@ include "libs/load.php";
     </div>
   </div>
   <?php load_temp("footer.php"); ?>
+  {% include "bot.php"%}
   {% include "footer.php"%}
 </body>
 </html>

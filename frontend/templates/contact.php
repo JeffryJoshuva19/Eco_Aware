@@ -57,6 +57,7 @@ include "libs/load.php";
         
 
     </div>
+    {% include "bot.php"%}
     {% include "footer.php"%}
     <?php load_temp("footer.php"); ?>
 </body>

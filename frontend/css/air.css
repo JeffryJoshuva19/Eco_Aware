@@ -1,3 +1,9 @@
+h1,h2,h3{
+  font-family: 'Koh Santepheap';
+}
+p{
+  font-family: 'caladea';
+}
 .container1 {
   padding: 10px 5%;
 }
