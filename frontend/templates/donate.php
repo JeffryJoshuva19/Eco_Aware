@@ -62,7 +62,7 @@ include "libs/load.php";
                                 <span class="input-group-text">.00</span>
                               </div>
                             </div>
-                            <a href="/get_cashpay" class="btn donate" >Donate Now
+                            <a href="https://zohosecurepay.in/checkout/nufxs78g-qsaa3o65noeog/Donation?preview=true" class="btn donate" >Donate Now
                             </a>
                           </form>  
                         </section>

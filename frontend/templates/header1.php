@@ -8,7 +8,7 @@
    </head>
     <div class="container check hed1 fixed-top">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <a href="/get_home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
           <div class="circular-image">
               <img src="frontend/resource/Logo.png" alt="logoImage">
             </div>
@@ -16,7 +16,7 @@
         </a>
   
         <ul class="nav nav-pills" id="nav-list">
-          <li class="nav-item"><a href="/get_home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="/get_home" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="/get_air" class="nav-link">Air</a></li>
           <li class="nav-item"><a href="/get_water" class="nav-link">water</a></li>
           <li class="nav-item"><a href="/get_waste" class="nav-link">Solid waste</a></li>
@@ -26,7 +26,7 @@
             <div class="dropdown-menu" aria-labelledby="headingDropdown">
                 <a class="dropdown-item" href="/get_qdetails">Complaint details</a>
                 <a class="dropdown-item" href="/get_contact">social clubs</a>
-                <a class="dropdown-item" href="/get_achieve">Achieve</a>
+                <!--<a class="dropdown-item" href="/get_achieve"></a>-->
                 <a class="dropdown-item" href="/get_plant">Plant</a>
                 <a class="dropdown-item" href="/get_policies">Policies</a>
                 <a class="dropdown-item" href="/get_activity">Activites</a>

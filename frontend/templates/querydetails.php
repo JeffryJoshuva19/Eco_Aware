@@ -1,7 +1,7 @@
 <?php
 include "libs/load.php";
 ?>
-<head>
+
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
@@ -21,19 +21,20 @@ include "libs/load.php";
     <link href="frontend/css/querydetails.css" rel="stylesheet">
 
   </head>
-</head>
+
 <body>
    <?php load_temp("header.php"); ?>
    {% include "header1.php"%}
    <div class="container">
         <div class="table-container ad">
-                <table class="table">
-                <thead class="custom-thead">
+                <table class="fl-table">
+                <thead>
                     <tr>
                     <th scope="col">No</th>
                     <th scope="col">Area</th>
                     <th scope="col">Ward Number</th>
                     <th scope="col">queries</th>
+                    <th scope="col">View Status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,7 +43,14 @@ include "libs/load.php";
                     <th scope="row">{{loop.index}}</th>
                     <td>{{i.area}}</td>
                     <td>{{i.wardnum}}</td>
-                    <td>{{i.area}}</td>
+                    <td>{{i.query}}</td>
+                    <td>
+                        {%if i.view%}
+                          <p>viewed</p>
+                        {%else%}
+                          <p>not viewed</p>
+                        {% endif%}
+                    </td>
                     </tr>
                     {% endfor%}
                 </tbody>

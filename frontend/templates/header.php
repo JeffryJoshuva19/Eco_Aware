@@ -33,7 +33,7 @@
               <div class="dropdown-menu" aria-labelledby="headingDropdown">
                   <a class="dropdown-item" href="/get_qdetails">Complaint details</a>
                   <a class="dropdown-item" href="/get_contact">social clubs</a>
-                  <a class="dropdown-item" href="/get_achieve">Achieve</a>
+                  <!--<a class="dropdown-item" href="/get_achieve">Achieve</a>-->
                   <a class="dropdown-item" href="/get_plant">Plant</a>
                   <a class="dropdown-item" href="/get_policies">Policies</a>
                   <a class="dropdown-item" href="/get_activity">Activites</a>

@@ -59,7 +59,7 @@ include "libs/load.php";
         <h1 class="adjt">Complaints</h1>
         <div class="row content">
            
-          <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
+          <div class="card adj1" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="getLocation()" style="width: 18rem;">
             <!-- <img src="frontend/resource/imm1.jpg" class="card-img-top" alt="..."> -->
             <div class="card-body">
             </div>
@@ -80,7 +80,7 @@ include "libs/load.php";
                   </button>
                 </div>
                 <div class="modal-body">
-                  <form action="/post_query" method="POST">
+                  <form action="/post_query" method="POST"enctype="multipart/form-data">
                       <div class="form-floating mb-3">
                         <input type="text" class="form-control" id="area" name="area" placeholder="" required>
                         <label for="floatingInput">Area</label>
@@ -93,6 +93,17 @@ include "libs/load.php";
                       <textarea class="form-control" placeholder="Leave a comment here" id="query" name="query" rows="4" cols="50" required></textarea>
                       <label for="floatingInput">Enter your queries</label>
                       </div>
+                      <div class="mb-3">
+                        <label for="qimage" class="form-label"></label>
+                        <input type="file" class="form-control" accept="image/*"  id="qimage" name="qimage" required>
+                      </div>
+                      <div class="mb-3">
+                        <label for="qimage" class="form-label"></label>
+                        <input type="hidden" class="form-control"   id="qlatitude" name="qlatitude" value="0">
+                        <input type="hidden" class="form-control"   id="qlongitude" name="qlongitude" value="0">
+
+                      </div>
+                      
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -128,7 +139,7 @@ include "libs/load.php";
                           <div class="card-body hh">
                             <h5 class="card-title">{{i.event_name}} on {{i.event_date}}</h5>
                             <hr>
-                            <p class="card-text">{{i.event_dis}}</p>
+                            <p style="font-size:14px;">{{i.event_dis}}</p>
                             <a href="{{i.event_link}}" class="btn btn-primary">Read more</a>
                           </div>
                         </div>
