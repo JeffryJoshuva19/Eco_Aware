@@ -38,7 +38,7 @@ include "libs/load.php";
     </div>
     <div class="text-content3">
       <h2>Find a perfect place for planting ,Faster!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ex vitae justo sodales consequat.</p>
+      <p></p>
     </div>
   </div>
         <hr>
@@ -60,7 +60,7 @@ include "libs/load.php";
             <li>To prevent air pockets below the tree, create a small mound of soil in the base of the hole and tamp down (press firmly but do not over-compact the soil) to prevent the tree from settling.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wgItnnBu2z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ include "libs/load.php";
             <li>Cut off any circling roots to prevent girdling (when circling roots get bigger, grow around the base of the tree and cut-off the flow of water and nutrients to other parts of the tree). This is a good time to cut the green ties and remove the nursery stake.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DNUQ1Rkq_fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ include "libs/load.php";
             <li>Do not step directly on the root ball, as this will damage and compact the roots.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RQMXK4aMqfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@ include "libs/load.php";
            
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K9FOWLoYl4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ include "libs/load.php";
             <li>Use extreme caution when removing the pounder from the stake. Repeat with the second or third stake spaced equally around the tree.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RxEO9Pc2DDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ include "libs/load.php";
             <li>Nail the ends of the tie together into the stake.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2YT-w9BBao0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@ include "libs/load.php";
             <li>Continue watering (once a week when there has not been a soaking rain) until established.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/a4hNIJxPxbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -167,7 +167,7 @@ include "libs/load.php";
             <li>Keep mulch 2-3 inches from the trunk and root flare of the tree to prevent insects and rodents from burrowing in the mulch and chewing on the bark.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7hmO4YRG6OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>

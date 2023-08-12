@@ -213,7 +213,7 @@ include "libs/load.php";
                     <!-- <p>E-mail: nssmadurai@gmail.com</p>
                     <p>Phone no: 7635279865</p> -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" id="bio" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" id="bio" src="https://www.youtube.com/embed/P1td1JYRzNY" frameborder="0" allowfullscreen></iframe>
                     </div>                
                 </div>
                 </div>
@@ -230,7 +230,7 @@ include "libs/load.php";
                     <!-- <p>E-mail: nssmadurai@gmail.com</p>
                     <p>Phone no: 7635279865</p> -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YeVLBkypPRU" frameborder="0" allowfullscreen></iframe>
                     </div>                </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@ include "libs/load.php";
                     <!-- <p>E-mail: nssmadurai@gmail.com</p>
                     <p>Phone no: 7635279865</p> -->
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/szvt1vD0Uug" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4JDGFNoY-rQ" frameborder="0" allowfullscreen></iframe>
                     </div>                
                 </div>
             </div>

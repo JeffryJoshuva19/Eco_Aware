@@ -26,4 +26,21 @@ document.addEventListener("DOMContentLoaded", function () {
     // Play the video when the page is loaded
     video.play();
 });
+function getLocation() {
+    if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+    } else {
+        alert("Geolocation is not supported in this browser.");
+    }
+}
 
+function successCallback(position) {
+    var latitude = position.coords.latitude;
+    var longitude = position.coords.longitude;
+    $("#qlatitude").val(latitude);
+    $("#qlongitude").val(longitude);
+}
+
+function errorCallback(error) {
+    alert("Error getting your location: " + error.message);
+}

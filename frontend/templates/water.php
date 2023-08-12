@@ -25,6 +25,7 @@ include "libs/load.php";
     <?php load_temp("header1.php"); ?>
     {% include "header1.php"%}
     <div class="container">
+      
     <div class="container3 donate">
       <div class="donate-background1">
         <div class="donate-content2">
@@ -41,6 +42,13 @@ include "libs/load.php";
           <p>"Think about solution of water pollution.<br> Polluting water is a sin, you are making your body dustbin."</p>
     </div>
     
+</div>
+<div class="cards-container5">
+  <div class="content">
+      <h1>Vaigai river pollution</h1>
+      <p>Discover the beauty of nature and learn 1about environmental conservation.</p>
+      <a href="/get_vaigai" class="btn btn-light">Read more</a>   
+     </div>
 </div>
     <div class="cards-container">
     <div class="row">
@@ -107,13 +115,7 @@ include "libs/load.php";
     </div>
     
   </div>
-  <div class="cards-container5">
-  <div class="content">
-      <h1>Vaigai river pollution</h1>
-      <p>Discover the beauty of nature and learn 1about environmental conservation.</p>
-      <a href="/get_vaigai" class="btn btn-light">Read more</a>   
-     </div>
-</div>
+
 <div class="cards-container1">
     <h1>Water pollution prevention</h1>
 </div>

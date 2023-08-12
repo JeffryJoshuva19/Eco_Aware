@@ -23,74 +23,102 @@ include "libs/load.php";
     <link href="frontend/css/policy.css" rel="stylesheet">
   </head>
 </head>
-
 <body>
-<?php load_temp("header1.php"); ?>
-{% include "header1.php"%}
-<div class="container">
-      <center>
+  <?php load_temp("header1.php"); ?>
+  {% include "header1.php" %}
+  <div class="container">
+    <center>
+        <div class="pbg">
+            <div class="container mt-5 row justify-content-center col-lg-8 p-4 clrr">
+                <center>
+                    <br>
+                    <span class="txt">Citizens' Charter and Municipal Services</span><br>
+                    <br>
+                </center>
+            </div>
 
-      <div class="pbg">
+            <br>
+            <div style="background-color:#fff;padding:15px;border-radius:10px;border:solid #7ddcd3ff 5px;color:#000;">
+                <div style="padding:10px;font-family:cambria;text-align:left;font-size:16px;">
+
+                    <h2>Citizens' Charter Objectives:</h2>
+                    <ol>
+                        <li>Simple: To simplify administrative processes and interactions for citizens.</li>
+                        <li>Transparent: To ensure transparency in governance and decision-making.</li>
+                        <li>Accountable: To hold the Municipal Corporation accountable for its actions and services.</li>
+                        <li>Responsive: To promptly address public grievances and provide timely solutions.</li>
+                        <li>Responsive: To fulfill citizens' needs efficiently while maintaining accountability and transparency.</li>
+                        <li>E-Governance: Introducing electronic governance for improved access and efficiency.</li>
+                        <li>Cooperation: Soliciting citizens' cooperation in adhering to civic responsibilities and regulations.</li>
+                    </ol>
+
+                    <h2>About Madurai City Municipal Corporation:</h2>
+                    <ul>
+                        <li>Madurai was constituted as a Municipality in 1866 and became a City Municipal Corporation in 1971.</li>
+                        <li>Population: 1,462,420 (2011 census), Area: 147.97 sq. km.</li>
+                        <li>Divided into 100 wards, grouped into four zonal ward committees.</li>
+                        <li>The Corporation Council comprises 100 ward councillors, headed by a Mayor.</li>
+                        <li>Major services: Water supply, sewerage, waste management, roads, drains, street lights, public conveniences.</li>
+                        <li>Also enforces and regulates tax administration, planning and building permissions, licenses, birth and death registration.</li>
+                    </ul>
+
+                    <h2>Roads and Street Lights:</h2>
+                    <ul>
+                        <li>Responsible: City Engineer and team.</li>
+                        <li>Different types of roads maintained, various lengths listed.</li>
+                        <li>Functions include construction, maintenance, repairs, widening, resurfacing, street furniture, parking, traffic islands.</li>
+                        <li>Response time for service/grievance redressal listed.</li>
+                    </ul>
+
+                    <h2>Rainwater Harvesting:</h2>
+                    <ul>
+                        <li>Importance: Meeting water demand, improving groundwater, preventing seawater infiltration.</li>
+                        <li>Methods: Rooftop harvesting, surface runoff harvesting.</li>
+                        <li>Different ways to collect rainwater listed.</li>
+                    </ul>
+
+                    <h2>Water Supply:</h2>
+                    <ul>
+                        <li>Responsible: City Engineer and team.</li>
+                        <li>Daily water quantity required, per capita supply, functions include operation, maintenance, distribution, awareness.</li>
+                        <li>Response time for complaints listed.</li>
+                    </ul>
 
 
-     
-      <div class="container mt-5 row justify-content-center col-lg-8 p-4 clrr">
-      <center>
-      <br>
-      <span class="txt">Policy And Acts Given By Madurai Corporation</span><br>
-      <br>
+                    <h2>Sewerage:</h2>
+                    <ul>
+                        <li>Responsible: City Engineer and team.</li>
+                        <li>Functions include maintenance of installations, new connections, treatment plants, septic tanks.</li>
+                        <li>Response time for various services listed.</li>
+                    </ul>
 
-      </center>
-      </div>
+                    <h2>E-Governance:</h2>
+                    <ul>
+                        <li>Pioneer in implementing E-Governance, various services introduced online.</li>
+                        <li>Services include property tax collection, birth and death certificates, building plan approval, financial accounting, video conferencing, etc.</li>
+                        <li>Introduction of new E-Governance modules planned.</li>
+                    </ul>
 
-      <br>
-      <div style="background-color:#fff;padding:15px;border-radius:10px;border:solid #009933 5px;color:#000;">
-      <div style="padding:10px;font-family:cambria;text-align:left;font-size:16px;">
+                    <h2>Town Planning:</h2>
+                    <ul>
+                        <li>Chief Town Planning Officer responsible for planning activities.</li>
+                        <li>Process for obtaining building and planning permissions explained.</li>
+                        <li>Functions include granting permissions, layout/subdivision plan approvals, addressing unauthorized constructions, master plan preparation.</li>
+                    </ul>
 
-      Hello users of WoPUK! Tis I, <font color="#1C81D2"><b>Headmistress Astrid Beckett</b></font> with a quick grading refresher for you all! <br><br>
+                    <h2>Contact Information:</h2>
+                    <ul>
+                        <li>Contact details for various officials and departments listed for public interaction.</li>
+                    </ul>
 
-      This year we seem to be full steam ahead with Homework and Grading, which is so absolutely amazing to see! But unfortunately, with so many homeworks being submitted, it seems a lot of people are forgetting to take the time to properly check homeworks for requirements being met and the like.<br><br>
-        
-        So, this is just a reminder to please <b>slow down</b>!! There is absolutely no rush, and I know you all want to earn your points, but grading incorrectly on numerous occasions where mistakes are very obvious is not acceptable and will be accepted as a form of Speed-Grading, which you're all aware isn't okay on WoPUK! <br><br>
-        
-      For any new users, below you'll find some tips on grading and good feedback to give, as well as what feedback to avoid! <br><br>
-
-      <font style="color:#1C81D2;text-decoration:underline;"><b>Good Homework Feedback</b></font> <br>
-      <ul>
-      <li><b>Praise them!</b> Appreciate their attempt at doing the homework whether it went good or bad, let them know we're happy they had a go!</li><br>
-      <li><b>Point out something specific that you really enjoyed</b>, such as one part of the story in an RPG, or a really funny sentence in an essay. This is a really good way to make it ungeneric as you can't say the same specific thing for every assignment.</li><br>
-      <li><b>Compliment their writing</b>, perhaps they structured it in a really interesting way that you personally wouldn't have thought of/haven't seen before. </li><br>
-      </ul>
-
-      <font style="color:#1C81D2;text-decoration:underline;"><b>Bad Homework Feedback</b></font><br>
-      <ul>
-      <li><b>Point out the mistakes in a way that won't make them feel bad.</b> For example don't say 'You missed your sources, you should know not to miss sources so why did you do that?' and instead say 'Unfortunately, I can see you forgot to include your sources. With every single assignment it's important that we include our sources, even if it's just your imagination, so try to remember that next time!'.</li><br>
-      <li><b>Point out how the user could do better next time.</b> If they have missed part of a requirement, tell them to triple check they've met everything next time. Or if they've used the wrong format, point out every assignment will specify a format and they just need to check each time.</li><br>
-      <li><b>Include a link</b> to either the homework rules & guidelines page, or to the library books we have to help users with writing homework.</li><br>
-      <li>Let them know if they're struggling, they can always <b>message the Teacher, Assistant Teacher or Headmistress.</b> </li><br>
-      </ul>
-
-      <font style="color:#1C81D2;text-decoration:underline;"><b>General Grading Refresher</b></font><br>
-      <ul>
-      <li><b>Take your time!!</b> Remember, you have an enitre 60 minutes to complete your grading, and there is no rush to do so. Although it can be tempting to grade quickly for gaining points, this is often how we grade incorrectly, which in some cases makes you lose points instead.</li><br>
-      <li><b>Check for plagiarism!</b> On this site we do not allow plagiarism of any kind, which means you should be checking all sources included, as well as relevant library books and possibly plagiarism checkers. Plagiarism is when a sentence or more is directly copied from another source. So make sure you are thoroughly checking for this! If found, it is a troll grade.</li><br>
-      <li><b>Don't grade down just because spelling/grammar is wrong, or because they have gotten the answer to a requirement incorrect!</b> We do not lose marks for typos and bad grammar, and if you can tell a student has clearly answered believing it is correct, when in actuality it is wrong, this is fine. </li><br>
-      <li><b>Don't make assumptions!</b> Whether you can see that a friend has done the homework, or it has a pretty code, don't assume they have answered everythig correctly. You must be as vigilant as you would be with a stranger or uncoded assignment.</li><br>
-      <li><b>Be nice!</b> Everyone is trying their best, it might just be that they don't fully understand lessons yet. So point out flaws, but also let them know the good stuff they've done, and ways they can improve! Constructive criticism only, not harsh criticism!</li>
-      </ul>
-      <br>
-
-      <hr>
-      <b>Please note:</b> Speed grading of any form is against our site rules, including copy and pasted feedback messages, and incorrectly grading on numerous occasions. If caught you will be contacted by the Headmistress.<br><br>
-
-      Also, make sure you are actively reminding yourself of grading rules at the following link: <a href="https://worldofpotter.uk/page/4f07c37f-90df-4b02-b6f6-85f9ff0f0bb6" target="_blank">https://worldofpotter.uk/page/4f07c37f-90df-4b02-b6f6-85f9ff0f0bb6</a>
-
-      </div></div>
-
-      </center>
-
+                    <p>Please note that these notes are a summary of the provided text and may not cover all details.</p>
+                </div>
+            </div>
+        </div>
+    </center>
 </div>
-{% include "bot.php"%}
-{% include "footer.php"%}
-<?php load_temp("footer.php"); ?>
+
+  {% include "bot.php" %}
+  {% include "footer.php" %}
+  <?php load_temp("footer.php"); ?>
 </body>
