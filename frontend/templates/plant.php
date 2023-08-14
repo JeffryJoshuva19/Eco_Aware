@@ -186,7 +186,7 @@ include "libs/load.php";
         <div class="donate-content2">
           <h1>Support Our Cause</h1>
           <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
-          <a href="donate.php" class="btn btn-light">Donate now</a>
+          <a href="/get_donate" class="btn btn-light">Donate now</a>
 
         </div>
       </div>
