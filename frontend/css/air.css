@@ -1,3 +1,9 @@
+h1,h2,h3{
+  font-family: 'Koh Santepheap';
+}
+p{
+  font-family: 'caladea';
+}
 .container1 {
   padding: 10px 5%;
 }
@@ -119,7 +125,19 @@
   margin-bottom: 10px;
   background-color: white;
 }
-
+.cards-container1 {
+  display: flex;
+  justify-content: space-between;
+  gap: -5px;
+  margin-top: 0px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background: rgba( 215, 234, 216, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 .card {
   flex: 1;
   max-width: 300px;

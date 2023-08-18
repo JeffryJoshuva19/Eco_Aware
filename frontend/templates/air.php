@@ -28,8 +28,8 @@ include "libs/load.php";
     <div class="container3 donate">
       <div class="donate-background1">
         <div class="donate-content2">
-          <h1>Support Our Cause</h1>
-          <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
+          <h1>Air pollution</h1>
+          <p>Join us in exploring the air pollution and the solutions that can clear the skies of madurai </p>
         </div>
       </div>
     </div> 
@@ -56,7 +56,7 @@ include "libs/load.php";
         </div>
     
   </div>
-  <div class="cards-container">
+  <div class="cards-container1">
     <h1>Causes of air pollution?</h1>
 </div>
 
@@ -164,6 +164,7 @@ include "libs/load.php";
       <p style="text-align:center">click on the logo so that you may get some tips to make some contribution to madurai</p>
     </div>
   </div>
+  {% include "bot.php"%}
   {% include "footer.php"%}
   <?php load_temp("footer.php"); ?>
 

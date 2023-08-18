@@ -1,8 +1,10 @@
  <head>
+  <title>EcoAware</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="frontend/css/header.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="frontend/resource/iconn.ico">
 
     <script src="frontend/js/header.js"></script>
  </head>
@@ -16,23 +18,28 @@
             <div class="circular-image">
               <img src="frontend/resource/Logo.png" alt="logoImage">
             </div>
-            <span class="fs-4 coustom">Green-Madurai</span>
+            <span class="fs-4 coustom1">Eco Aware</span>
           </a>
 
     
           <ul class="nav nav-pills" id="nav-list">
-            <li class="nav-item"><a href="/get_home" class="nav-link active">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Air</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">water</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Activites</a></li>
-            <h1 class="dropdown ">
+            <li class="nav-item"><a href="/get_home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/get_air" class="nav-link">Air</a></li>
+            <li class="nav-item"><a href="/get_water" class="nav-link">water</a></li>
+            <li class="nav-item"><a href="/get_waste" class="nav-link">Solid waste</a></li>
+            <li class="nav-item"><a href="/get_donate" class="nav-link">Donate</a></li>
+            <div class="dropdown ">
            <button class="btn clr" type="button" id="headingDropdown" data-bs-toggle="dropdown" aria-expanded="false">others</button>
               <div class="dropdown-menu" aria-labelledby="headingDropdown">
-                  <a class="dropdown-item" href="querydetails.php">Querydetails</a>
-                  <a class="dropdown-item" href="#">contact</a>
-                  <a class="dropdown-item" href="#">Wast</a>
+                  <a class="dropdown-item" href="/get_qdetails">Complaint details</a>
+                  <a class="dropdown-item" href="/get_contact">social clubs</a>
+                  <!--<a class="dropdown-item" href="/get_achieve">Achieve</a>-->
+                  <a class="dropdown-item" href="/get_plant">Plant</a>
+                  <a class="dropdown-item" href="/get_policies">Policies</a>
+                  <a class="dropdown-item" href="/get_activity">Activites</a>
+
               </div>
-            </h1>
+            </div>
             <div id="test">
               <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
             </div>

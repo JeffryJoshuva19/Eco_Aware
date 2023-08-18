@@ -507,7 +507,7 @@ hr {
   .card4 {
     width: 90%; /* Adjust the maximum width as needed */
     margin: 20px auto; /* Center-align cards and provide space between */
-    text-align: center; /* Center-align content */
+    text-align: justify; /* Center-align content */
   }
 
   .logo img {

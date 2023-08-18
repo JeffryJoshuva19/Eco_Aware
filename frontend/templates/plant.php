@@ -38,7 +38,7 @@ include "libs/load.php";
     </div>
     <div class="text-content3">
       <h2>Find a perfect place for planting ,Faster!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet ex vitae justo sodales consequat.</p>
+      <p></p>
     </div>
   </div>
         <hr>
@@ -52,7 +52,7 @@ include "libs/load.php";
       <div class="accordion-item">
         <div class="accordion-heading">Step 1: Dig the planting hole.</div>
         <div class="accordion-content">
-          <h2>Clean and disinfect gardening tools and containers</h2>
+          <h2>Dig the planting hole</h2>
           <ul>
             <li>First, remove the tree container from the container and measure the root ball (the mass of soil and roots that comes out of the container) with the handle of your shovel to estimate the depth to dig.</li>
             <li>Dig the hole as deep as, and 2-3 times as wide as the root ball.</li>
@@ -60,14 +60,14 @@ include "libs/load.php";
             <li>To prevent air pockets below the tree, create a small mound of soil in the base of the hole and tamp down (press firmly but do not over-compact the soil) to prevent the tree from settling.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wgItnnBu2z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <div class="accordion-heading">Step 2: Massage/loosen/trim the roots and remove the nursery stake.</div>
         <div class="accordion-content">
-        <h2>Composting, fertilizing and weeding</h2>
+        <h2>Massage/loosen/trim the roots and remove the nursery stake</h2>
           <ul>
             <li>We have found that this step is key to robust tree performance. </li>
             <li>Roots should ideally radiate out straight from the center of the root ball.</li>
@@ -75,14 +75,14 @@ include "libs/load.php";
             <li>Cut off any circling roots to prevent girdling (when circling roots get bigger, grow around the base of the tree and cut-off the flow of water and nutrients to other parts of the tree). This is a good time to cut the green ties and remove the nursery stake.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DNUQ1Rkq_fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <div class="accordion-heading">Step 3: Place the tree in the center of the hole.</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Place the tree in the center of the hole</h2>
           <ul>
             <li>The tree has only one chance to be planted properly so make sure the depth and position is correct before filling in the soil.</li>
             <li>The root flare should lie above the surface.</li>
@@ -93,28 +93,28 @@ include "libs/load.php";
             <li>Do not step directly on the root ball, as this will damage and compact the roots.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RQMXK4aMqfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <div class="accordion-heading">Step 4: Build a soil berm.</div>
         <div class="accordion-content">
-        <h2>Composting, fertilizing and weeding</h2>
+        <h2>Build a soil berm</h2>
           <ul>
             <li>A soil berm is a mound encircling the tree, 10-12 inches from the trunk, which creates a basin or bowl that will hold approximately 10 gallons of water.</li>
             <li> The inside of the berm should be at the outer edge of the root ball. Keeping the root ball moist is essential until the tree is established.</li>
            
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K9FOWLoYl4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     <div class="accordion-item">
         <div class="accordion-heading">Step 5: Stake the tree.</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Stake the tree</h2>
           <ul>
             <li>Two ‘lodge pole’ stakes are used to help the young tree grow up straight until the roots are established.</li>
             <li>In parks and yards three stakes may be used to protect the tree from lawn mowers.</li>
@@ -125,7 +125,7 @@ include "libs/load.php";
             <li>Use extreme caution when removing the pounder from the stake. Repeat with the second or third stake spaced equally around the tree.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RxEO9Pc2DDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ include "libs/load.php";
         <div class="accordion-heading">Step 6: Tie the tree.</div>
         <div class="accordion-content">
           
-        <h2>Harvesting and storing</h2>
+        <h2>Tie the tree</h2>
           <ul>
             <li>Ties should be placed at the lowest point on the trunk where the tree can be held straight, generally about 4 feet from the ground.</li>
             <li>Hold the trunk at the level you plan to tie it; the tree should stand straight without leaning.</li>
@@ -141,33 +141,33 @@ include "libs/load.php";
             <li>Nail the ends of the tie together into the stake.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/2YT-w9BBao0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <div class="accordion-heading">Step 7: Water the tree thoroughly!</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Water the tree thoroughly</h2>
           <ul>
             <li>Fill the basin with water and reinforce the berm if needed.</li>
             <li>Continue watering (once a week when there has not been a soaking rain) until established.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/a4hNIJxPxbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <div class="accordion-heading">Step 8: Add Mulch.</div>
         <div class="accordion-content">
-        <h2>Harvesting and storing</h2>
+        <h2>Add Mulch</h2>
           <ul>
             <li>Cover the soil 2-3 feet around the tree base with 3-5 inches of mulch (composed of wood chips, shredded bark or leaves) to retain moisture, suppress weeds and improve soil composition.</li>
             <li>Keep mulch 2-3 inches from the trunk and root flare of the tree to prevent insects and rodents from burrowing in the mulch and chewing on the bark.</li>
           </ul>
           <div class="video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dPLHi7tsoFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7hmO4YRG6OM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -186,7 +186,7 @@ include "libs/load.php";
         <div class="donate-content2">
           <h1>Support Our Cause</h1>
           <p>Your contribution can make a difference. Help us in our mission to protect the environment and promote sustainable practices.</p>
-          <a href="donate.php" class="btn btn-light">Donate now</a>
+          <a href="/get_donate" class="btn btn-light">Donate now</a>
 
         </div>
       </div>
@@ -197,19 +197,19 @@ include "libs/load.php";
     <div class="main-container">
     
     <div class="logo-container">
-      <img src="resource/farmer.png" alt="Logo 1">
+      <img src="frontend/resource/farmer.png" alt="Logo 1">
       <p>Identification of beneficiary farmers</p>
     </div>
     <div class="logo-container">
-      <img src="resource/planting.png" alt="Logo 2">
+      <img src="frontend/resource/planting.png" alt="Logo 2">
       <p>Procurement of saplings</p>
     </div>
     <div class="logo-container">
-      <img src="resource/computer.png" alt="Logo 3">
+      <img src="frontend/resource/computer.png" alt="Logo 3">
       <p>Post plantation interventions and monitoring</p>
     </div>
     <div class="logo-container">
-      <img src="resource/deforestation.png" alt="Logo 4">
+      <img src="frontend/resource/deforestation.png" alt="Logo 4">
       <p>hazardous tree removal.</p>
     </div>
   </div>
@@ -218,30 +218,31 @@ include "libs/load.php";
 
   <div class="card4">
     <div class="logo">
-    <img src="resource/volunteer.png" alt="">
+    <img src="frontend/resource/volunteer.png" alt="">
     </div>
     <h2>Volunteers</h2>
-    <p>We believe bringing positive change in madurai is not a single handed process. It  be supported by the 'Power Of People’ And the Power of people must be led by 'Power of Unity’ with a good deed.<a href="contact.php">contact us</a></p>
+    <p>We believe bringing positive change in madurai is not a single handed process. It  be supported by the 'Power Of People’ And the Power of people must be led by 'Power of Unity’ with a good deed.<a href="/get_contact">Social clubs</a></p>
    
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/corporates.png" alt="">
+  <img src="frontend/resource/corporates.png" alt="">
   </div>
     <h2>corporates</h2>
     <p>We enable CSR activities, which are the responsibility as well as an opportunity for corporates to impact social, environmental and economic dimensions. Thereby create a more sustainable earth and better world for humanity</p>
   </div>
   <div class="card4">
   <div class="logo">
-  <img src="resource/communities.png" alt="">
+  <img src="frontend/resource/communities.png" alt="">
   </div>
     <h2>Communities</h2>
     <p>We invite you to come together with your community (school, college, housing societies etc.) for the betterment of the environment. It is a step towards creating a big change in society.</p>
   </div>
   </div>
-     </div>
+  </div>
     
   </div>
+  {% include "bot.php"%}
   {% include "footer.php"%}
 
 
@@ -267,18 +268,7 @@ include "libs/load.php";
       });
     });
   </script>
-   <!-- Start of ChatBot (www.chatbot.com) code -->
-<script type="text/javascript">
-    window.__be = window.__be || {};
-    window.__be.id = "64d0f9b9d01f120007af4c8e";
-    (function() {
-        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
-        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
-    })();
-</script>
-<noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
-<!-- End of ChatBot code -->
+ 
     <?php load_temp("footer.php"); ?>
 
 </body>

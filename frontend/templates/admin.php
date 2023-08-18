@@ -5,15 +5,29 @@ include "libs/load.php";
 <html lang="en" data-bs-theme="auto">
   <head>
     <script src="frontend/vendor/assets/js/color-modes.js"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="generator" content="Hugo 0.112.5">
-    <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
-    <link href="frontend/css/admin.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="Hugo 0.112.5">
+  <link href="frontend/vendor/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6.5.0"></script>
+ <link href="frontend/css/admin.css" rel="stylesheet">
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <!-- Include Popper.js for Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+ <!-- Include Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
   </head>
 
 
@@ -349,7 +363,28 @@ include "libs/load.php";
             </div>
         </div>
     </div>
-    <!--view modal-->
+<!--view modal complient-->
+    <div class="modal fade" id="vieww1" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="viewModalLabel">View</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p id="viee"><p>
+                <img src="" id="qimage" name="qimage" alt="..." width="200" height="150">
+
+
+            </div>
+            <div id="map" style="width: 400px; height: 400px; top:10px; left:30px"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--view modal-->
     <div class="modal fade" id="vieww" tabindex="-1" aria-labelledby="viewModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -365,7 +400,7 @@ include "libs/load.php";
             </div>
           </div>
         </div>
-      </div>
+    </div>
     
     
     <!-- Add event -->
@@ -418,7 +453,10 @@ include "libs/load.php";
 
 
 
-
+    <div id="map" style="width: 600px; height: 400px; top:10px;"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-routing-machine/3.2.12/leaflet-routing-machine.min.js"></script>    
 
    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -426,6 +464,8 @@ include "libs/load.php";
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <!-- Include Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
 
 <script>
     function delete_item(data){
@@ -538,9 +578,13 @@ include "libs/load.php";
             id    : id,
             contentType: "application/json",
             success: function(data) {
-                var a = document.getElementById("vie");
+                image_path = "frontend/resource/upload_image/"+data.aff_image;
+                $("#qimage").attr("src", image_path);
+                var a = document.getElementById("viee");
                 a.innerHTML = data.query;
-                $("#vieww").modal('show');
+                $("#vieww1").modal('show');
+                show_map(data.latitude,data.longitude);
+                _.defer(map.invalidateSize.bind(map));
             },
         });
         return false;
@@ -554,6 +598,7 @@ include "libs/load.php";
             id    : id,
             contentType: "application/json",
             success: function(data) {
+                
                 var a = document.getElementById("vie");
                 a.innerHTML = data.event_dis;
                 $("#vieww").modal('show');
@@ -644,6 +689,22 @@ include "libs/load.php";
            
         });
     }
+    function show_map(a,b){
+        var latitude = a;     
+        var longitude = b;   
+
+        
+        var map = L.map('map').setView([latitude, longitude], 15);
+
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+        
+        L.marker([latitude, longitude]).addTo(map);
+    }
+    
     
     
 </script>

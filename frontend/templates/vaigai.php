@@ -60,7 +60,7 @@ include "libs/load.php";
     <div class="container">
     <center>
       <div class="pbg">
-        <div class="container mt-5 row justify-content-center col-lg-8 p-4 clr">
+        <div class="container mt-5 row justify-content-center col-lg-8 p-4 clrr">
           <center>
             <br>
             <span class="txt">The Vaigai River Restoration Project: Reviving a Lifeline, Restoring a Community</span><br>
@@ -108,6 +108,7 @@ include "libs/load.php";
       </div>
     </center>
   </div>
+    {% include "bot.php"%}
     {% include "footer.php"%}
     <?php load_temp("footer.php"); ?>
 

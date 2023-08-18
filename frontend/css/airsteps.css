@@ -1,3 +1,4 @@
+
 .container1 {
     display: flex;
     flex-wrap: wrap;
@@ -15,12 +16,14 @@
     font-size: 30 px;
     color: #333333;
     margin-bottom: 10px;
+    font-family: 'Koh Santepheap';
   }
 
   .point-number {
     font-size: 30px;
     color: #444444;
-    
+    font-family: 'Koh Santepheap';
+
   }
 
   .point-image {
@@ -37,6 +40,8 @@
     font-size: 16px;
     margin-bottom: 15px;
     text-align: justify;
+    font-family: 'caladea';
+
   }
 .point-title{
     font-size: 30px;

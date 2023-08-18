@@ -42,11 +42,20 @@ def get_home(request: Request, db: Session = Depends(get_db)):
 
 
 @app.post('/post_query')
-def post_query(request: Request, db: Session = Depends(get_db),area:str=Form(...),wnum:int=Form(...),query:str=Form(...)):
+def post_query(request: Request, db: Session = Depends(get_db),area:str=Form(...),wnum:int=Form(...),query:str=Form(...),qimage:UploadFile=File(...),qlatitude:str=Form(...),qlongitude:str=Form(...)):
+    print("*")
     statuss="ACTIVE"
+    view=0
     created_at = current_date_time
-    updated_at=" "
-    body=model.Query(area=area, wardnum=wnum,query=query,status=statuss,created_at=created_at,updated_at=updated_at)
+    updated_at=current_date_time
+    file_type = qimage.content_type
+    extention = file_type.split('/')[-1]
+    image_file1 = str(uuid.uuid4())+ '.' + str(extention)
+    
+    file_location = f"frontend/resource/upload_image/{image_file1}"
+    with open(file_location, "wb+") as file_object:
+      shutil.copyfileobj(qimage.file, file_object)
+    body=model.Query(area=area, wardnum=wnum,query=query,aff_image=image_file1,latitude=qlatitude,longitude=qlongitude,status=statuss,created_at=created_at,updated_at=updated_at,view=view)
     db.add(body)
     db.commit()
     return RedirectResponse("/get_home", status_code=303)
@@ -132,7 +141,7 @@ def update_event(request:Request,db:Session=Depends(get_db),editid:int=Form(...)
 def post_news(request:Request,db:Session=Depends(get_db),newsimage: UploadFile = File(...),newstitle:str=Form(...),newsdis:str=Form(...),newslink:str=Form(...)):
     statuss="ACTIVE"
     created_at=current_date_time
-    updated_at=" "
+    updated_at=current_date_time
     file_type = newsimage.content_type
     extention = file_type.split('/')[-1]
     image_file1 = str(uuid.uuid4())+ '.' + str(extention)
@@ -148,6 +157,9 @@ def post_news(request:Request,db:Session=Depends(get_db),newsimage: UploadFile =
     
 @app.put('/put_query/{id}')
 def fetch_query(id:int,request:Request,db:Session=Depends(get_db)):
+    view=1
+    db.query(model.Query).filter(model.Query.id==id).update({"view":view})
+    db.commit()
     find=db.query(model.Query).filter(model.Query.id==id,model.Query.status=="ACTIVE").first()
     json_compatible_item_data = jsonable_encoder(find)
     return JSONResponse(content=json_compatible_item_data)
@@ -203,7 +215,7 @@ def post_contact(request:Request,db:Session=Depends(get_db),contact_img:UploadFi
       shutil.copyfileobj(contact_img.file, file_object)
       created_at=current_date_time
       statuss="ACTIVE"
-      updated_at=" "
+      updated_at=current_date_time
     body=model.Contact(logo=image_file1,name=contact_name,phone_num=phone_num,email=email,status=statuss,created_at=created_at,updated_at=updated_at)
     db.add(body)
     db.commit()
@@ -263,11 +275,13 @@ def get_plant(request:Request,db:Session=Depends(get_db)):
 
 @app.get('/get_contact')
 def get_plant(request:Request,db:Session=Depends(get_db)):
-    return templates.TemplateResponse("contact.php", context={"request": request})
+    cont=db.query(model.Contact).filter(model.Contact.status=="ACTIVE").all()
+    return templates.TemplateResponse("contact.php", context={"request": request,"data":cont})
 
 @app.get('/get_activity')
 def get_plant(request:Request,db:Session=Depends(get_db)):
-    return templates.TemplateResponse("activity.php", context={"request": request})
+    act=db.query(model.News).filter(model.News.status=="ACTIVE").all()
+    return templates.TemplateResponse("activity.php", context={"request": request,"data":act})
 @app.get('/get_air')
 def get_plant(request:Request,db:Session=Depends(get_db)):
     return templates.TemplateResponse("air.php", context={"request": request})
@@ -275,3 +289,23 @@ def get_plant(request:Request,db:Session=Depends(get_db)):
 @app.get('/get_airsteps')
 def get_plant(request:Request,db:Session=Depends(get_db)):
     return templates.TemplateResponse("airsteps.php", context={"request": request})
+
+@app.get('/get_donate')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("donate.php", context={"request": request})
+
+@app.get('/get_achieve')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("achieve.php", context={"request": request})
+
+@app.get('/get_cashpay')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("cashpay.php", context={"request": request})
+
+@app.get('/get_policies')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("policy.php", context={"request": request})
+
+@app.get('/get_rainwater')
+def get_plant(request:Request,db:Session=Depends(get_db)):
+    return templates.TemplateResponse("rainwater.php", context={"request": request})

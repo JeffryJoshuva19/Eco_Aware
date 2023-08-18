@@ -1,8 +1,14 @@
 .coustom{
-    color: rgb(0, 255, 4);
+    color: darkgreen;
     text-shadow: 30px;
     border-radius: 30px;
     font-family: 'Times New Roman', Times, serif;
+}
+.coustom1{
+  color: rgb(60, 255, 0);
+  text-shadow: 30px;
+  border-radius: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .circular-image{
     display: flex;
@@ -29,7 +35,7 @@
     
 }
 .neww {
-    background: url('/frontend/resource/headim.jpg');
+    background: url('/frontend/resource/ezgif.com-video-to-gif(1).gif');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -58,13 +64,19 @@
   color: #C6BEC1;
 }
 .hed1{
-  background-color: #272526;
+  background-color:  rgb(215,234,216);
 }
-.cent{
-   text-align: center;
-   margin-top: 280px;
-   color:greenyellow;
-  
+.cent {  
+  text-align: center;
+  margin-top: 280px;
+  font-size: 60px;
+  background: linear-gradient(45deg, red, yellow, green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255);
+  -webkit-text-stroke: 2px ;
+  text-stroke: 2px ;
 }
 .clr{
   color: blue;

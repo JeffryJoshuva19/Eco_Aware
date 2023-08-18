@@ -1,4 +1,10 @@
-
+h1,h2,h3{
+  font-family: 'Koh Santepheap';
+  color: darkgreen;
+}
+p{
+  font-family: 'caladea';
+}
 .container1 {
   max-width: 1000px;
   margin: 20px auto;
@@ -61,7 +67,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .accordion-heading {
-  color: #333;
+  color: rgb(46, 86, 49);
   padding: 15px;
   font-size: 20px;
   cursor: pointer;
@@ -78,7 +84,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .accordion-content {
   padding: 15px;
   display: none;
-  background: rgba( 163, 227, 231, 0.25 );
+  background: rgb(232,243,233,0.3);
 }
 
 .accordion-content.active {
@@ -98,7 +104,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 /* Additional styling for uniqueness */
 .accordion-item:hover {
-  border-color: lightgreen;
+  border-color: darkgreen;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -278,10 +284,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 /* Style for the heading */
 .donate-content1 h2 {
   font-size: 60px;
+  color: white;
   
 }
 .donate-content2 h1{
   font-size: 30px;
+  color: white;
 }
 .donate-content2 p{
   font-size: 20px;
@@ -372,7 +380,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 40px;
   text-align: center;
   color: green;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Koh Sandepheap';
 }
 
 a {
@@ -457,12 +465,12 @@ a:hover {
 }
 .text-content3 h2 {
   margin-top: 0;
-  color: #333;
+  color: darkgreen;
 }
 
 .text-content3 p {
   line-height: 1.6;
-  color: #555;
+  color: #333;
 }
 
 .background-container2 {
